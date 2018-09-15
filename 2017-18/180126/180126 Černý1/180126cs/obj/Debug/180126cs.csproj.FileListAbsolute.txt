@@ -1,0 +1,26 @@
+E:\sspš\2017 2018\1b pá 12\180126cs\180126cs\bin\Debug\180126cs.exe.config
+E:\sspš\2017 2018\1b pá 12\180126cs\180126cs\bin\Debug\180126cs.exe
+E:\sspš\2017 2018\1b pá 12\180126cs\180126cs\bin\Debug\180126cs.pdb
+E:\sspš\2017 2018\1b pá 12\180126cs\180126cs\obj\Debug\180126cs.csprojResolveAssemblyReference.cache
+E:\sspš\2017 2018\1b pá 12\180126cs\180126cs\obj\Debug\180126cs.exe
+E:\sspš\2017 2018\1b pá 12\180126cs\180126cs\obj\Debug\180126cs.pdb
+F:\sspš\2017 2018\1b pá 12\180126cs\180126cs\bin\Debug\180126cs.exe.config
+F:\sspš\2017 2018\1b pá 12\180126cs\180126cs\obj\Debug\180126cs.exe
+F:\sspš\2017 2018\1b pá 12\180126cs\180126cs\obj\Debug\180126cs.pdb
+F:\sspš\2017 2018\1b pá 12\180126cs\180126cs\bin\Debug\180126cs.exe
+F:\sspš\2017 2018\1b pá 12\180126cs\180126cs\bin\Debug\180126cs.pdb
+F:\sspš\2017 2018\1b pá 12\180126cs\180126cs\obj\Debug\180126cs.csprojResolveAssemblyReference.cache
+F:\PLOCHA\180126 Černý1\180126cs\bin\Debug\180126cs.exe.config
+F:\PLOCHA\180126 Černý1\180126cs\bin\Debug\180126cs.exe
+F:\PLOCHA\180126 Černý1\180126cs\bin\Debug\180126cs.pdb
+F:\PLOCHA\180126 Černý1\180126cs\obj\Debug\180126cs.csprojResolveAssemblyReference.cache
+F:\PLOCHA\180126 Černý1\180126cs\obj\Debug\180126cs.csproj.CoreCompileInputs.cache
+F:\PLOCHA\180126 Černý1\180126cs\obj\Debug\180126cs.exe
+F:\PLOCHA\180126 Černý1\180126cs\obj\Debug\180126cs.pdb
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180126\180126 Černý1\180126cs\bin\Debug\180126cs.exe.config
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180126\180126 Černý1\180126cs\bin\Debug\180126cs.exe
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180126\180126 Černý1\180126cs\obj\Debug\180126cs.csprojResolveAssemblyReference.cache
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180126\180126 Černý1\180126cs\obj\Debug\180126cs.csproj.CoreCompileInputs.cache
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180126\180126 Černý1\180126cs\obj\Debug\180126cs.exe
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180126\180126 Černý1\180126cs\obj\Debug\180126cs.pdb
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180126\180126 Černý1\180126cs\bin\Debug\180126cs.pdb

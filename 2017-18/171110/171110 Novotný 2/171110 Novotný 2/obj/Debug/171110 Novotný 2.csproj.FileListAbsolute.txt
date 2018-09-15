@@ -1,0 +1,6 @@
+F:\Práce - uložiště\Sítě a prog\Programování\Visual studio C\171110\Nová složka\171110 Novotný 2\171110 Novotný 2\bin\Debug\171110 Novotný 2.exe.config
+F:\Práce - uložiště\Sítě a prog\Programování\Visual studio C\171110\Nová složka\171110 Novotný 2\171110 Novotný 2\bin\Debug\171110 Novotný 2.exe
+F:\Práce - uložiště\Sítě a prog\Programování\Visual studio C\171110\Nová složka\171110 Novotný 2\171110 Novotný 2\bin\Debug\171110 Novotný 2.pdb
+F:\Práce - uložiště\Sítě a prog\Programování\Visual studio C\171110\Nová složka\171110 Novotný 2\171110 Novotný 2\obj\Debug\171110 Novotný 2.csprojResolveAssemblyReference.cache
+F:\Práce - uložiště\Sítě a prog\Programování\Visual studio C\171110\Nová složka\171110 Novotný 2\171110 Novotný 2\obj\Debug\171110 Novotný 2.exe
+F:\Práce - uložiště\Sítě a prog\Programování\Visual studio C\171110\Nová složka\171110 Novotný 2\171110 Novotný 2\obj\Debug\171110 Novotný 2.pdb

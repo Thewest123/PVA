@@ -1,0 +1,7 @@
+C:\Users\honza\source\repos\171124 Černý2\171124 Černý2\bin\Debug\171124 Černý2.exe.config
+C:\Users\honza\source\repos\171124 Černý2\171124 Černý2\bin\Debug\171124 Černý2.exe
+C:\Users\honza\source\repos\171124 Černý2\171124 Černý2\bin\Debug\171124 Černý2.pdb
+C:\Users\honza\source\repos\171124 Černý2\171124 Černý2\obj\Debug\171124 Černý2.csprojResolveAssemblyReference.cache
+C:\Users\honza\source\repos\171124 Černý2\171124 Černý2\obj\Debug\171124 Černý2.csproj.CoreCompileInputs.cache
+C:\Users\honza\source\repos\171124 Černý2\171124 Černý2\obj\Debug\171124 Černý2.exe
+C:\Users\honza\source\repos\171124 Černý2\171124 Černý2\obj\Debug\171124 Černý2.pdb

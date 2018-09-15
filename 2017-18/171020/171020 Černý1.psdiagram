@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flowchartSaveContainer>
+    <flowchart>
+        <mainSegment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="layoutSegment" xmlID="0">
+            <element xsi:type="layoutElement" xmlID="1" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Začátek</value>
+                </startEnd>
+            </element>
+            <element xsi:type="layoutElement" xmlID="6" parentSegment="0">
+                <loopStart>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <customValue></customValue>
+                    <commandsValid>true</commandsValid>
+                    <value></value>
+                    <overHanged>false</overHanged>
+                </loopStart>
+                <segment xsi:nil="true"/>
+                <segment xsi:type="layoutSegment" xmlID="7" parentElement="6">
+                    <element xsi:type="layoutElement" xmlID="3" parentSegment="7">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>"Zadejte hodnotu pro číslo \"X\"" →</defaultValue>
+                            <commands>
+<entry key="value">"Zadejte hodnotu pro číslo \"X\""</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Zadejte hodnotu pro číslo \"X\"" →</value>
+                        </io>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="4" parentSegment="7">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>X ←</defaultValue>
+                            <commands>
+<entry key="var">X</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>X ←</value>
+                        </io>
+                    </element>
+                </segment>
+            </element>
+            <element xsi:type="layoutElement" xmlID="5" parentSegment="0">
+                <loopEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>isNaN(X)</defaultValue>
+                    <commands>
+                        <entry key="condition">isNaN(X)</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>isNaN(X)</value>
+                </loopEnd>
+            </element>
+            <element xsi:type="layoutElement" xmlID="19" parentSegment="0">
+                <process>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>vypis ← "Mocnina čísla "+X+":\n\n"</defaultValue>
+                    <commands>
+                        <entry key="var">vypis</entry>
+                        <entry key="value">"Mocnina čísla "+X+":\n\n"</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>vypis ← "Mocnina čísla "+X+":\n\n"</value>
+                </process>
+            </element>
+            <element xsi:type="layoutElement" xmlID="9" parentSegment="0">
+                <for>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>i ← 2..5</defaultValue>
+                    <commands>
+                        <entry key="var">i</entry>
+                        <entry key="from">2</entry>
+                        <entry key="to">5</entry>
+                        <entry key="inc">1</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>i ← 2..5</value>
+                </for>
+                <segment xsi:nil="true"/>
+                <segment xsi:type="layoutSegment" xmlID="10" parentElement="9">
+                    <element xsi:type="layoutElement" xmlID="14" parentSegment="10">
+                        <process>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>mocnina ← Math.pow(X,i)</defaultValue>
+                            <commands>
+<entry key="var">mocnina</entry>
+<entry key="value">Math.pow(X,i)</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>mocnina ← Math.pow(X,i)</value>
+                        </process>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="18" parentSegment="10">
+                        <process>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>vypis ← vypis+X+"^"+i+" = "+mocnina+"\n"</defaultValue>
+                            <commands>
+<entry key="var">vypis</entry>
+<entry key="value">vypis+X+"^"+i+" = "+mocnina+"\n"</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>vypis ← vypis+X+"^"+i+" = "+mocnina+"\n"</value>
+                        </process>
+                    </element>
+                </segment>
+            </element>
+            <element xsi:type="layoutElement" xmlID="13" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>vypis →</defaultValue>
+                    <commands>
+                        <entry key="value">vypis</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>vypis →</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="2" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Konec</value>
+                </startEnd>
+            </element>
+        </mainSegment>
+    </flowchart>
+</flowchartSaveContainer>

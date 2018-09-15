@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flowchartSaveContainer>
+    <flowchart>
+        <mainSegment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="layoutSegment" xmlID="0">
+            <element xsi:type="layoutElement" xmlID="1" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Začátek</value>
+                </startEnd>
+            </element>
+            <element xsi:type="layoutElement" xmlID="17" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>"Zadejte 2 čísla pro porovnání" →</defaultValue>
+                    <commands>
+                        <entry key="value">"Zadejte 2 čísla pro porovnání"</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>"Zadejte 2 čísla pro porovnání" →</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="3" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>num1 ←</defaultValue>
+                    <commands>
+                        <entry key="var">num1</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>num1 ←</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="4" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>num2 ←</defaultValue>
+                    <commands>
+                        <entry key="var">num2</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>num2 ←</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="5" parentSegment="0">
+                <decision>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>num1=num2</defaultValue>
+                    <commands>
+                        <entry key="condition">num1=num2</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>num1=num2</value>
+                </decision>
+                <segment xsi:type="layoutSegment" xmlID="6" parentElement="5">
+                    <description>Ne</description>
+                </segment>
+                <segment xsi:type="layoutSegment" xmlID="7" parentElement="5">
+                    <element xsi:type="layoutElement" xmlID="8" parentSegment="7">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>"Výsledek porovnání:\n" + num1 + " = " + num2 →</defaultValue>
+                            <commands>
+<entry key="value">"Výsledek porovnání:\n" + num1 + " = " + num2</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Výsledek porovnání:\n" + num1 + " = " + num2 →</value>
+                        </io>
+                    </element>
+                    <description>Ano</description>
+                </segment>
+            </element>
+            <element xsi:type="layoutElement" xmlID="9" parentSegment="0">
+                <decision>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>num1&gt;num2</defaultValue>
+                    <commands>
+                        <entry key="condition">num1&gt;num2</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>num1&gt;num2</value>
+                </decision>
+                <segment xsi:type="layoutSegment" xmlID="10" parentElement="9">
+                    <description>Ne</description>
+                </segment>
+                <segment xsi:type="layoutSegment" xmlID="11" parentElement="9">
+                    <element xsi:type="layoutElement" xmlID="12" parentSegment="11">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>"Výsledek porovnání:\n" + num1 + " &gt; " + num2 →</defaultValue>
+                            <commands>
+<entry key="value">"Výsledek porovnání:\n" + num1 + " &gt; " + num2</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Výsledek porovnání:\n" + num1 + " &gt; " + num2 →</value>
+                        </io>
+                    </element>
+                    <description>Ano</description>
+                </segment>
+            </element>
+            <element xsi:type="layoutElement" xmlID="13" parentSegment="0">
+                <decision>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>num1&lt;num2</defaultValue>
+                    <commands>
+                        <entry key="condition">num1&lt;num2</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>num1&lt;num2</value>
+                </decision>
+                <segment xsi:type="layoutSegment" xmlID="14" parentElement="13">
+                    <description>Ne</description>
+                </segment>
+                <segment xsi:type="layoutSegment" xmlID="15" parentElement="13">
+                    <element xsi:type="layoutElement" xmlID="16" parentSegment="15">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>"Výsledek porovnání:\n" + num1 + " &lt; " + num2 →</defaultValue>
+                            <commands>
+<entry key="value">"Výsledek porovnání:\n" + num1 + " &lt; " + num2</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Výsledek porovnání:\n" + num1 + " &lt; " + num2 →</value>
+                        </io>
+                    </element>
+                    <description>Ano</description>
+                </segment>
+            </element>
+            <element xsi:type="layoutElement" xmlID="2" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Konec</value>
+                </startEnd>
+            </element>
+        </mainSegment>
+    </flowchart>
+</flowchartSaveContainer>

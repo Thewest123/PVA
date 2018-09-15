@@ -1,0 +1,6 @@
+C:\Users\honza\source\repos\171208\171208 Černý5\171208 Černý5\bin\Debug\171208 Černý5.exe.config
+C:\Users\honza\source\repos\171208\171208 Černý5\171208 Černý5\bin\Debug\171208 Černý5.exe
+C:\Users\honza\source\repos\171208\171208 Černý5\171208 Černý5\bin\Debug\171208 Černý5.pdb
+C:\Users\honza\source\repos\171208\171208 Černý5\171208 Černý5\obj\Debug\171208 Černý5.csproj.CoreCompileInputs.cache
+C:\Users\honza\source\repos\171208\171208 Černý5\171208 Černý5\obj\Debug\171208 Černý5.exe
+C:\Users\honza\source\repos\171208\171208 Černý5\171208 Černý5\obj\Debug\171208 Černý5.pdb

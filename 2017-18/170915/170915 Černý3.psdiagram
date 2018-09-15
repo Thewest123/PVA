@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flowchartSaveContainer>
+    <flowchart>
+        <mainSegment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="layoutSegment" xmlID="0">
+            <element xsi:type="layoutElement" xmlID="1" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Začátek</value>
+                </startEnd>
+            </element>
+            <element xsi:type="layoutElement" xmlID="9" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <customValue>"Zadejte čísla pro proměnné cyklu:\n
+loopStart = začátek cyklu\n
+loopEnd = konec cyklu\n
+loopAdd = kolik přičítat"
+→</customValue>
+                    <defaultValue>"Zadejte čísla pro proměnné cyklu:\nloopStart = začátek cyklu\nloopEnd = konec cyklu\nloopAdd = kolik přičítat" →</defaultValue>
+                    <commands>
+                        <entry key="value">"Zadejte čísla pro proměnné cyklu:\nloopStart = začátek cyklu\nloopEnd = konec cyklu\nloopAdd = kolik přičítat"</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>"Zadejte čísla pro proměnné cyklu:\n
+loopStart = začátek cyklu\n
+loopEnd = konec cyklu\n
+loopAdd = kolik přičítat"
+→</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="6" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>loopStart ←</defaultValue>
+                    <commands>
+                        <entry key="var">loopStart</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>loopStart ←</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="7" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>loopEnd ←</defaultValue>
+                    <commands>
+                        <entry key="var">loopEnd</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>loopEnd ←</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="8" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>loopAdd ←</defaultValue>
+                    <commands>
+                        <entry key="var">loopAdd</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>loopAdd ←</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="3" parentSegment="0">
+                <for>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>i ← loopStart..loopEnd(loopAdd)</defaultValue>
+                    <commands>
+                        <entry key="var">i</entry>
+                        <entry key="from">loopStart</entry>
+                        <entry key="to">loopEnd</entry>
+                        <entry key="inc">loopAdd</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>i ← loopStart..loopEnd(loopAdd)</value>
+                </for>
+                <segment xsi:nil="true"/>
+                <segment xsi:type="layoutSegment" xmlID="4" parentElement="3">
+                    <element xsi:type="layoutElement" xmlID="5" parentSegment="4">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>i →</defaultValue>
+                            <commands>
+<entry key="value">i</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>i →</value>
+                        </io>
+                    </element>
+                </segment>
+            </element>
+            <element xsi:type="layoutElement" xmlID="2" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Konec</value>
+                </startEnd>
+            </element>
+        </mainSegment>
+    </flowchart>
+</flowchartSaveContainer>

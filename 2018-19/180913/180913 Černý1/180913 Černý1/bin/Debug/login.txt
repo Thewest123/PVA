@@ -1,0 +1,6 @@
+admin*admin
+user*heslo
+uzivatel123*heslo456
+lorem*ipsum
+thewest*faryk
+blbost*blbec

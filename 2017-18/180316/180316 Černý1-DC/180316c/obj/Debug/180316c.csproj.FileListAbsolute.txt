@@ -1,0 +1,16 @@
+E:\sspš\2017 2018\1b pá 12\180316c\180316c\bin\Debug\180316c.exe.config
+E:\sspš\2017 2018\1b pá 12\180316c\180316c\bin\Debug\180316c.exe
+E:\sspš\2017 2018\1b pá 12\180316c\180316c\bin\Debug\180316c.pdb
+E:\sspš\2017 2018\1b pá 12\180316c\180316c\obj\Debug\180316c.csprojResolveAssemblyReference.cache
+E:\sspš\2017 2018\1b pá 12\180316c\180316c\obj\Debug\180316c.exe
+E:\sspš\2017 2018\1b pá 12\180316c\180316c\obj\Debug\180316c.pdb
+E:\sspš\2017 2018\1b pá 12\180316cs\180316c\bin\Debug\180316c.exe.config
+E:\sspš\2017 2018\1b pá 12\180316cs\180316c\obj\Debug\180316c.exe
+E:\sspš\2017 2018\1b pá 12\180316cs\180316c\obj\Debug\180316c.pdb
+F:\PLOCHA\180316 Černý1-DC\180316c\bin\Debug\180316c.exe.config
+F:\PLOCHA\180316 Černý1-DC\180316c\bin\Debug\180316c.exe
+F:\PLOCHA\180316 Černý1-DC\180316c\bin\Debug\180316c.pdb
+F:\PLOCHA\180316 Černý1-DC\180316c\obj\Debug\180316c.csprojResolveAssemblyReference.cache
+F:\PLOCHA\180316 Černý1-DC\180316c\obj\Debug\180316c.csproj.CoreCompileInputs.cache
+F:\PLOCHA\180316 Černý1-DC\180316c\obj\Debug\180316c.exe
+F:\PLOCHA\180316 Černý1-DC\180316c\obj\Debug\180316c.pdb

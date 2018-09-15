@@ -1,0 +1,6 @@
+C:\Users\honza\source\repos\170922 Černý3\170922 Černý3\bin\Release\170922 Černý3.exe.config
+C:\Users\honza\source\repos\170922 Černý3\170922 Černý3\bin\Release\170922 Černý3.exe
+C:\Users\honza\source\repos\170922 Černý3\170922 Černý3\bin\Release\170922 Černý3.pdb
+C:\Users\honza\source\repos\170922 Černý3\170922 Černý3\obj\Release\170922 Černý3.csproj.CoreCompileInputs.cache
+C:\Users\honza\source\repos\170922 Černý3\170922 Černý3\obj\Release\170922 Černý3.exe
+C:\Users\honza\source\repos\170922 Černý3\170922 Černý3\obj\Release\170922 Černý3.pdb

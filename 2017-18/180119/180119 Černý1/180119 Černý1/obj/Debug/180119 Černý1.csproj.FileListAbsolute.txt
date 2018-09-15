@@ -1,0 +1,14 @@
+C:\Users\honza\source\repos\180119 Černý1\180119 Černý1\bin\Debug\180119 Černý1.exe.config
+C:\Users\honza\source\repos\180119 Černý1\180119 Černý1\bin\Debug\180119 Černý1.exe
+C:\Users\honza\source\repos\180119 Černý1\180119 Černý1\bin\Debug\180119 Černý1.pdb
+C:\Users\honza\source\repos\180119 Černý1\180119 Černý1\obj\Debug\180119 Černý1.csprojResolveAssemblyReference.cache
+C:\Users\honza\source\repos\180119 Černý1\180119 Černý1\obj\Debug\180119 Černý1.csproj.CoreCompileInputs.cache
+C:\Users\honza\source\repos\180119 Černý1\180119 Černý1\obj\Debug\180119 Černý1.exe
+C:\Users\honza\source\repos\180119 Černý1\180119 Černý1\obj\Debug\180119 Černý1.pdb
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180119\180119 Černý1\180119 Černý1\bin\Debug\180119 Černý1.exe.config
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180119\180119 Černý1\180119 Černý1\bin\Debug\180119 Černý1.exe
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180119\180119 Černý1\180119 Černý1\bin\Debug\180119 Černý1.pdb
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180119\180119 Černý1\180119 Černý1\obj\Debug\180119 Černý1.csprojResolveAssemblyReference.cache
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180119\180119 Černý1\180119 Černý1\obj\Debug\180119 Černý1.csproj.CoreCompileInputs.cache
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180119\180119 Černý1\180119 Černý1\obj\Debug\180119 Černý1.exe
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\180119\180119 Černý1\180119 Černý1\obj\Debug\180119 Černý1.pdb

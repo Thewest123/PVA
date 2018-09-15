@@ -1,0 +1,13 @@
+C:\Users\honza\source\repos\171208\171208 Černý2\171208 Černý2\bin\Debug\171208 Černý2.exe.config
+C:\Users\honza\source\repos\171208\171208 Černý2\171208 Černý2\bin\Debug\171208 Černý2.exe
+C:\Users\honza\source\repos\171208\171208 Černý2\171208 Černý2\bin\Debug\171208 Černý2.pdb
+C:\Users\honza\source\repos\171208\171208 Černý2\171208 Černý2\obj\Debug\171208 Černý2.csproj.CoreCompileInputs.cache
+C:\Users\honza\source\repos\171208\171208 Černý2\171208 Černý2\obj\Debug\171208 Černý2.exe
+C:\Users\honza\source\repos\171208\171208 Černý2\171208 Černý2\obj\Debug\171208 Černý2.pdb
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171208\171208 Černý2\171208 Černý2\bin\Debug\171208 Černý2.exe.config
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171208\171208 Černý2\171208 Černý2\bin\Debug\171208 Černý2.exe
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171208\171208 Černý2\171208 Černý2\bin\Debug\171208 Černý2.pdb
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171208\171208 Černý2\171208 Černý2\obj\Debug\171208 Černý2.csprojResolveAssemblyReference.cache
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171208\171208 Černý2\171208 Černý2\obj\Debug\171208 Černý2.csproj.CoreCompileInputs.cache
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171208\171208 Černý2\171208 Černý2\obj\Debug\171208 Černý2.exe
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171208\171208 Černý2\171208 Černý2\obj\Debug\171208 Černý2.pdb

@@ -1,0 +1,7 @@
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171110\171110 Černý7\171110 Černý7\bin\Debug\171110 Černý7.exe.config
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171110\171110 Černý7\171110 Černý7\bin\Debug\171110 Černý7.exe
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171110\171110 Černý7\171110 Černý7\bin\Debug\171110 Černý7.pdb
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171110\171110 Černý7\171110 Černý7\obj\Debug\171110 Černý7.csproj.CoreCompileInputs.cache
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171110\171110 Černý7\171110 Černý7\obj\Debug\171110 Černý7.exe
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171110\171110 Černý7\171110 Černý7\obj\Debug\171110 Černý7.pdb
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\171110\171110 Černý7\171110 Černý7\obj\Debug\171110 Černý7.csprojResolveAssemblyReference.cache

@@ -1,0 +1,21 @@
+C:\Users\thewe\source\repos\180105 Černý1\180105 Černý1\bin\Debug\180105 Černý1.exe.config
+C:\Users\thewe\source\repos\180105 Černý1\180105 Černý1\bin\Debug\180105 Černý1.exe
+C:\Users\thewe\source\repos\180105 Černý1\180105 Černý1\bin\Debug\180105 Černý1.pdb
+C:\Users\thewe\source\repos\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.csproj.CoreCompileInputs.cache
+C:\Users\thewe\source\repos\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.exe
+C:\Users\thewe\source\repos\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.pdb
+C:\Users\thewe\source\repos\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.csprojResolveAssemblyReference.cache
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\180105\180105 Černý1\180105 Černý1\bin\Debug\180105 Černý1.exe.config
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\180105\180105 Černý1\180105 Černý1\bin\Debug\180105 Černý1.exe
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\180105\180105 Černý1\180105 Černý1\bin\Debug\180105 Černý1.pdb
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\180105\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.csprojResolveAssemblyReference.cache
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\180105\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.csproj.CoreCompileInputs.cache
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\180105\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.exe
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\180105\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.pdb
+C:\Users\thewe\Desktop\180105 Černý1\180105 Černý1\bin\Debug\180105 Černý1.exe.config
+C:\Users\thewe\Desktop\180105 Černý1\180105 Černý1\bin\Debug\180105 Černý1.exe
+C:\Users\thewe\Desktop\180105 Černý1\180105 Černý1\bin\Debug\180105 Černý1.pdb
+C:\Users\thewe\Desktop\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.csprojResolveAssemblyReference.cache
+C:\Users\thewe\Desktop\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.csproj.CoreCompileInputs.cache
+C:\Users\thewe\Desktop\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.exe
+C:\Users\thewe\Desktop\180105 Černý1\180105 Černý1\obj\Debug\180105 Černý1.pdb

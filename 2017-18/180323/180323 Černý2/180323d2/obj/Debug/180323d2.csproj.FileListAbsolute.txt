@@ -1,0 +1,25 @@
+E:\sspš\2017 2018\1b pá 12\180323d2\180323d2\bin\Debug\180323d2.exe.config
+E:\sspš\2017 2018\1b pá 12\180323d2\180323d2\bin\Debug\180323d2.exe
+E:\sspš\2017 2018\1b pá 12\180323d2\180323d2\bin\Debug\180323d2.pdb
+E:\sspš\2017 2018\1b pá 12\180323d2\180323d2\obj\Debug\180323d2.csprojResolveAssemblyReference.cache
+E:\sspš\2017 2018\1b pá 12\180323d2\180323d2\obj\Debug\180323d2.exe
+E:\sspš\2017 2018\1b pá 12\180323d2\180323d2\obj\Debug\180323d2.pdb
+F:\sspš\2017 2018\1b pá 12\180323d2\180323d2\bin\Debug\180323d2.exe.config
+F:\sspš\2017 2018\1b pá 12\180323d2\180323d2\obj\Debug\180323d2.exe
+F:\sspš\2017 2018\1b pá 12\180323d2\180323d2\obj\Debug\180323d2.pdb
+F:\sspš\2017 2018\1b pá 12\180323d2\180323d2\bin\Debug\180323d2.exe
+F:\sspš\2017 2018\1b pá 12\180323d2\180323d2\bin\Debug\180323d2.pdb
+F:\sspš\2017 2018\1b pá 12\180323d2\180323d2\obj\Debug\180323d2.csprojResolveAssemblyReference.cache
+F:\sspš\2017 2018\1b pá 12\180323d2s\180323d2\bin\Debug\180323d2.exe.config
+F:\sspš\2017 2018\1b pá 12\180323d2s\180323d2\obj\Debug\180323d2.exe
+F:\sspš\2017 2018\1b pá 12\180323d2s\180323d2\obj\Debug\180323d2.pdb
+F:\sspš\2017 2018\1b pá 12\180323d2s\180323d2\bin\Debug\180323d2.exe
+F:\sspš\2017 2018\1b pá 12\180323d2s\180323d2\bin\Debug\180323d2.pdb
+F:\sspš\2017 2018\1b pá 12\180323d2s\180323d2\obj\Debug\180323d2.csprojResolveAssemblyReference.cache
+F:\PLOCHA\180323d2s\180323d2\bin\Debug\180323d2.exe.config
+F:\PLOCHA\180323d2s\180323d2\bin\Debug\180323d2.exe
+F:\PLOCHA\180323d2s\180323d2\bin\Debug\180323d2.pdb
+F:\PLOCHA\180323d2s\180323d2\obj\Debug\180323d2.csprojResolveAssemblyReference.cache
+F:\PLOCHA\180323d2s\180323d2\obj\Debug\180323d2.csproj.CoreCompileInputs.cache
+F:\PLOCHA\180323d2s\180323d2\obj\Debug\180323d2.exe
+F:\PLOCHA\180323d2s\180323d2\obj\Debug\180323d2.pdb

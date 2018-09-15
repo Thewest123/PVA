@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flowchartSaveContainer>
+    <flowchart>
+        <mainSegment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="layoutSegment" xmlID="0">
+            <element xsi:type="layoutElement" xmlID="1" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Začátek</value>
+                </startEnd>
+            </element>
+            <element xsi:type="layoutElement" xmlID="20" parentSegment="0">
+                <loopStart>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>true</defaultValue>
+                    <commands>
+                        <entry key="condition">true</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>true</value>
+                    <overHanged>true</overHanged>
+                </loopStart>
+                <segment xsi:nil="true"/>
+                <segment xsi:type="layoutSegment" xmlID="21" parentElement="20">
+                    <element xsi:type="layoutElement" xmlID="3" parentSegment="21">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>"Zadejte hodnotu pro proměnnou \"a\":" →</defaultValue>
+                            <commands>
+<entry key="value">"Zadejte hodnotu pro proměnnou \"a\":"</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Zadejte hodnotu pro proměnnou \"a\":" →</value>
+                        </io>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="4" parentSegment="21">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>a ←</defaultValue>
+                            <commands>
+<entry key="var">a</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>a ←</value>
+                        </io>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="5" parentSegment="21">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>"Zadejte hodnotu pro proměnnou \"b\":" →</defaultValue>
+                            <commands>
+<entry key="value">"Zadejte hodnotu pro proměnnou \"b\":"</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Zadejte hodnotu pro proměnnou \"b\":" →</value>
+                        </io>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="6" parentSegment="21">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>b ←</defaultValue>
+                            <commands>
+<entry key="var">b</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>b ←</value>
+                        </io>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="18" parentSegment="21">
+                        <process>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>vystup ← "Výsledek: \n\n"</defaultValue>
+                            <commands>
+<entry key="var">vystup</entry>
+<entry key="value">"Výsledek: \n\n"</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>vystup ← "Výsledek: \n\n"</value>
+                        </process>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="7" parentSegment="21">
+                        <decision>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>¬isNaN(a)</defaultValue>
+                            <commands>
+<entry key="condition">!isNaN(a)</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>¬isNaN(a)</value>
+                        </decision>
+                        <segment xsi:type="layoutSegment" xmlID="8" parentElement="7">
+                            <element xsi:type="layoutElement" xmlID="14" parentSegment="8">
+<process>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <defaultValue>vystup ← vystup+"\""+a+"\""+" není číslo\n"</defaultValue>
+    <commands>
+        <entry key="var">vystup</entry>
+        <entry key="value">vystup+"\""+a+"\""+" není číslo\n"</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>vystup ← vystup+"\""+a+"\""+" není číslo\n"</value>
+</process>
+                            </element>
+                            <description>Ne</description>
+                        </segment>
+                        <segment xsi:type="layoutSegment" xmlID="9" parentElement="7">
+                            <element xsi:type="layoutElement" xmlID="10" parentSegment="9">
+<process>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <defaultValue>vystup ← vystup+"\""+a+"\""+" je číslo\n"</defaultValue>
+    <commands>
+        <entry key="var">vystup</entry>
+        <entry key="value">vystup+"\""+a+"\""+" je číslo\n"</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>vystup ← vystup+"\""+a+"\""+" je číslo\n"</value>
+</process>
+                            </element>
+                            <description>Ano</description>
+                        </segment>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="11" parentSegment="21">
+                        <decision>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>¬isNaN(b)</defaultValue>
+                            <commands>
+<entry key="condition">!isNaN(b)</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>¬isNaN(b)</value>
+                        </decision>
+                        <segment xsi:type="layoutSegment" xmlID="12" parentElement="11">
+                            <element xsi:type="layoutElement" xmlID="16" parentSegment="12">
+<process>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <defaultValue>vystup ← vystup+"\""+b+"\""+" není číslo\n"</defaultValue>
+    <commands>
+        <entry key="var">vystup</entry>
+        <entry key="value">vystup+"\""+b+"\""+" není číslo\n"</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>vystup ← vystup+"\""+b+"\""+" není číslo\n"</value>
+</process>
+                            </element>
+                            <description>Ne</description>
+                        </segment>
+                        <segment xsi:type="layoutSegment" xmlID="13" parentElement="11">
+                            <element xsi:type="layoutElement" xmlID="15" parentSegment="13">
+<process>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <defaultValue>vystup ← vystup+"\""+b+"\""+" je číslo\n"</defaultValue>
+    <commands>
+        <entry key="var">vystup</entry>
+        <entry key="value">vystup+"\""+b+"\""+" je číslo\n"</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>vystup ← vystup+"\""+b+"\""+" je číslo\n"</value>
+</process>
+                            </element>
+                            <description>Ano</description>
+                        </segment>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="17" parentSegment="21">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>vystup →</defaultValue>
+                            <commands>
+<entry key="value">vystup</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>vystup →</value>
+                        </io>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="22" parentSegment="21">
+                        <decision>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>a="k" &amp;&amp; b="k"</defaultValue>
+                            <commands>
+<entry key="condition">a="k" &amp;&amp; b="k"</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>a="k" &amp;&amp; b="k"</value>
+                        </decision>
+                        <segment xsi:type="layoutSegment" xmlID="23" parentElement="22">
+                            <description>Ne</description>
+                        </segment>
+                        <segment xsi:type="layoutSegment" xmlID="24" parentElement="22">
+                            <element xsi:type="layoutElement" xmlID="25" parentSegment="24">
+<goto>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <customValue>konec</customValue>
+    <defaultValue>__
+BR
+__</defaultValue>
+    <commands>
+        <entry key="mode">goto</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>konec</value>
+</goto>
+                            </element>
+                            <description>Ano</description>
+                        </segment>
+                    </element>
+                </segment>
+            </element>
+            <element xsi:type="layoutElement" xmlID="19" parentSegment="0">
+                <loopEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value></value>
+                </loopEnd>
+            </element>
+            <element xsi:type="layoutElement" xmlID="26" parentSegment="0">
+                <gotoLabel>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <customValue>konec</customValue>
+                    <commandsValid>true</commandsValid>
+                    <value>konec</value>
+                </gotoLabel>
+            </element>
+            <element xsi:type="layoutElement" xmlID="27" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>"Ukončuji program!" →</defaultValue>
+                    <commands>
+                        <entry key="value">"Ukončuji program!"</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>"Ukončuji program!" →</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="2" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Konec</value>
+                </startEnd>
+            </element>
+        </mainSegment>
+    </flowchart>
+</flowchartSaveContainer>

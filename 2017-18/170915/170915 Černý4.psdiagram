@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flowchartSaveContainer>
+    <flowchart>
+        <mainSegment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="layoutSegment" xmlID="0">
+            <element xsi:type="layoutElement" xmlID="1" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Začátek</value>
+                </startEnd>
+            </element>
+            <element xsi:type="layoutElement" xmlID="9" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <customValue>"Zadejte čísla pro proměnné cyklu (-20 až +20):\n
+loopStart = začátek cyklu\n
+loopEnd = konec cyklu\n
+loopAdd = kolik přičítat"
+→</customValue>
+                    <defaultValue>"Zadejte čísla pro proměnné cyklu:\nloopStart = začátek cyklu\nloopEnd = konec cyklu\nloopAdd = kolik přičítat" →</defaultValue>
+                    <commands>
+                        <entry key="value">"Zadejte čísla pro proměnné cyklu:\nloopStart = začátek cyklu\nloopEnd = konec cyklu\nloopAdd = kolik přičítat"</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>"Zadejte čísla pro proměnné cyklu (-20 až +20):\n
+loopStart = začátek cyklu\n
+loopEnd = konec cyklu\n
+loopAdd = kolik přičítat"
+→</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="6" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>loopStart ←</defaultValue>
+                    <commands>
+                        <entry key="var">loopStart</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>loopStart ←</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="7" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>loopEnd ←</defaultValue>
+                    <commands>
+                        <entry key="var">loopEnd</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>loopEnd ←</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="8" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>loopAdd ←</defaultValue>
+                    <commands>
+                        <entry key="var">loopAdd</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>loopAdd ←</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="5" parentSegment="0">
+                <decision>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <customValue>(loopStart≥-10 &amp;&amp; loopStart≤10) &amp;&amp;
+(loopEnd≥-10 &amp;&amp; loopEnd≤10) &amp;&amp;
+(loopAdd≥-10 &amp;&amp; loopAdd≤10)</customValue>
+                    <defaultValue>(loopStart≥-10 &amp;&amp; loopStart≤10) &amp;&amp; (loopEnd≥-10 &amp;&amp; loopEnd≤10) &amp;&amp; (loopAdd≥-10 &amp;&amp; loopAdd≤10)</defaultValue>
+                    <commands>
+                        <entry key="condition">(loopStart&gt;=-10 &amp;&amp; loopStart&lt;=10) &amp;&amp; (loopEnd&gt;=-10 &amp;&amp; loopEnd&lt;=10) &amp;&amp; (loopAdd&gt;=-10 &amp;&amp; loopAdd&lt;=10)</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>(loopStart≥-10 &amp;&amp; loopStart≤10) &amp;&amp;
+(loopEnd≥-10 &amp;&amp; loopEnd≤10) &amp;&amp;
+(loopAdd≥-10 &amp;&amp; loopAdd≤10)</value>
+                </decision>
+                <segment xsi:type="layoutSegment" xmlID="10" parentElement="5">
+                    <element xsi:type="layoutElement" xmlID="18" parentSegment="10">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <customValue>"Chyba:\n
+Lze zadat pouze čísla v rozmezí -10 až +10!" →</customValue>
+                            <defaultValue>"Chyba:\nLze zadat pouze čísla v rozmezí -10 až +10!" →</defaultValue>
+                            <commands>
+<entry key="value">"Chyba:\nLze zadat pouze čísla v rozmezí -10 až +10!"</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Chyba:\n
+Lze zadat pouze čísla v rozmezí -10 až +10!" →</value>
+                        </io>
+                    </element>
+                    <description>Ne</description>
+                </segment>
+                <segment xsi:type="layoutSegment" xmlID="11" parentElement="5">
+                    <element xsi:type="layoutElement" xmlID="31" parentSegment="11">
+                        <decision>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <customValue>loopEnd&lt;0 &amp;&amp; loopAdd&lt;0</customValue>
+                            <defaultValue>loopEnd&lt;0 &amp;&amp; loopAdd&lt;0</defaultValue>
+                            <commands>
+<entry key="condition">loopEnd&lt;0 &amp;&amp; loopAdd&lt;0</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>loopEnd&lt;0 &amp;&amp; loopAdd&lt;0</value>
+                        </decision>
+                        <segment xsi:type="layoutSegment" xmlID="33" parentElement="31">
+                            <element xsi:type="layoutElement" xmlID="20" parentSegment="33">
+<decision>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <customValue>(loopEnd&gt;=loopStart)</customValue>
+    <defaultValue>(loopEnd≥loopStart)</defaultValue>
+    <commands>
+        <entry key="condition">(loopEnd&gt;=loopStart)</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>(loopEnd&gt;=loopStart)</value>
+</decision>
+<segment xsi:type="layoutSegment" xmlID="21" parentElement="20">
+    <element xsi:type="layoutElement" xmlID="23" parentSegment="21">
+        <io>
+            <borderColor>0,0,0,255</borderColor>
+            <shapeUpColor>255,255,255,255</shapeUpColor>
+            <shapeDownColor>230,230,230,255</shapeDownColor>
+            <hasShadow>true</hasShadow>
+            <customValue>"Chyba:\n
+loopEnd (konec cyklu) musí být větší než
+nebo se rovnat loopStart (začátek cyklu)!" →</customValue>
+            <defaultValue>"Chyba:\nloopEnd (konec cyklu) musí být větší než nebo se rovnat loopStart (začátek cyklu)!" →</defaultValue>
+            <commands>
+                <entry key="value">"Chyba:\nloopEnd (konec cyklu) musí být větší než nebo se rovnat loopStart (začátek cyklu)!"</entry>
+            </commands>
+            <commandsValid>true</commandsValid>
+            <value>"Chyba:\n
+loopEnd (konec cyklu) musí být větší než
+nebo se rovnat loopStart (začátek cyklu)!" →</value>
+        </io>
+    </element>
+    <description>Ne</description>
+</segment>
+<segment xsi:type="layoutSegment" xmlID="22" parentElement="20">
+    <element xsi:type="layoutElement" xmlID="56" parentSegment="22">
+        <decision>
+            <borderColor>0,0,0,255</borderColor>
+            <shapeUpColor>255,255,255,255</shapeUpColor>
+            <shapeDownColor>230,230,230,255</shapeDownColor>
+            <hasShadow>true</hasShadow>
+            <defaultValue>loopStart&lt;0 &amp;&amp; loopEnd&lt;0</defaultValue>
+            <commands>
+                <entry key="condition">loopStart&lt;0 &amp;&amp; loopEnd&lt;0</entry>
+            </commands>
+            <commandsValid>true</commandsValid>
+            <value>loopStart&lt;0 &amp;&amp; loopEnd&lt;0</value>
+        </decision>
+        <segment xsi:type="layoutSegment" xmlID="57" parentElement="56">
+            <element xsi:type="layoutElement" xmlID="24" parentSegment="57">
+                <decision>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>(loopEnd-loopAdd)≥0</defaultValue>
+                    <commands>
+                        <entry key="condition">(loopEnd-loopAdd)&gt;=0</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>(loopEnd-loopAdd)≥0</value>
+                </decision>
+                <segment xsi:type="layoutSegment" xmlID="25" parentElement="24">
+                    <element xsi:type="layoutElement" xmlID="27" parentSegment="25">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <customValue>"Chyba:\n
+loopAdd (kolik přičítat) musí 
+být v rozmezí velikosti cyklu!" →</customValue>
+                            <defaultValue>"Chyba:\nloopAdd (kolik přičítat) musí být v rozmezí velikosti cyklu!" →</defaultValue>
+                            <commands>
+<entry key="value">"Chyba:\nloopAdd (kolik přičítat) musí být v rozmezí velikosti cyklu!"</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Chyba:\n
+loopAdd (kolik přičítat) musí 
+být v rozmezí velikosti cyklu!" →</value>
+                        </io>
+                    </element>
+                    <description>Ne</description>
+                </segment>
+                <segment xsi:type="layoutSegment" xmlID="26" parentElement="24">
+                    <element xsi:type="layoutElement" xmlID="28" parentSegment="26">
+                        <decision>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>loopAdd≠0</defaultValue>
+                            <commands>
+<entry key="condition">loopAdd!=0</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>loopAdd≠0</value>
+                        </decision>
+                        <segment xsi:type="layoutSegment" xmlID="29" parentElement="28">
+                            <element xsi:type="layoutElement" xmlID="32" parentSegment="29">
+<io>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <customValue>"Chyba:\nloopAdd se nesmí
+rovnat nule!" →</customValue>
+    <defaultValue>"Chyba:\nloopAdd se nesmí rovnat nule!" →</defaultValue>
+    <commands>
+        <entry key="value">"Chyba:\nloopAdd se nesmí rovnat nule!"</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>"Chyba:\nloopAdd se nesmí
+rovnat nule!" →</value>
+</io>
+                            </element>
+                            <description>Ne</description>
+                        </segment>
+                        <segment xsi:type="layoutSegment" xmlID="30" parentElement="28">
+                            <element xsi:type="layoutElement" xmlID="79" parentSegment="30">
+<gotoLabel>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <customValue>LOOP</customValue>
+    <commandsValid>true</commandsValid>
+    <value>LOOP</value>
+</gotoLabel>
+                            </element>
+                            <element xsi:type="layoutElement" xmlID="19" parentSegment="30">
+<process>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <defaultValue>exit ← loopStart</defaultValue>
+    <commands>
+        <entry key="var">exit</entry>
+        <entry key="value">loopStart</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>exit ← loopStart</value>
+</process>
+                            </element>
+                            <element xsi:type="layoutElement" xmlID="3" parentSegment="30">
+<for>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <defaultValue>i ← loopStart..loopEnd(loopAdd)</defaultValue>
+    <commands>
+        <entry key="var">i</entry>
+        <entry key="from">loopStart</entry>
+        <entry key="to">loopEnd</entry>
+        <entry key="inc">loopAdd</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>i ← loopStart..loopEnd(loopAdd)</value>
+</for>
+<segment xsi:nil="true"/>
+<segment xsi:type="layoutSegment" xmlID="4" parentElement="3">
+    <element xsi:type="layoutElement" xmlID="12" parentSegment="4">
+        <decision>
+            <borderColor>0,0,0,255</borderColor>
+            <shapeUpColor>255,255,255,255</shapeUpColor>
+            <shapeDownColor>230,230,230,255</shapeDownColor>
+            <hasShadow>true</hasShadow>
+            <defaultValue>i=loopStart</defaultValue>
+            <commands>
+                <entry key="condition">i=loopStart</entry>
+            </commands>
+            <commandsValid>true</commandsValid>
+            <value>i=loopStart</value>
+        </decision>
+        <segment xsi:type="layoutSegment" xmlID="13" parentElement="12">
+            <element xsi:type="layoutElement" xmlID="16" parentSegment="13">
+                <process>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>exit ← exit+"\n"+i</defaultValue>
+                    <commands>
+                        <entry key="var">exit</entry>
+                        <entry key="value">exit+"\n"+i</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>exit ← exit+"\n"+i</value>
+                </process>
+            </element>
+            <description>Ne</description>
+        </segment>
+        <segment xsi:type="layoutSegment" xmlID="14" parentElement="12">
+            <element xsi:type="layoutElement" xmlID="15" parentSegment="14">
+                <process>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>exit ← i</defaultValue>
+                    <commands>
+                        <entry key="var">exit</entry>
+                        <entry key="value">i</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>exit ← i</value>
+                </process>
+            </element>
+            <description>Ano</description>
+        </segment>
+    </element>
+</segment>
+                            </element>
+                            <element xsi:type="layoutElement" xmlID="17" parentSegment="30">
+<io>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <customValue>"Výstup cyklu:\n\n"+exit
+
++"\n\nVytvořil: Jan Černý, 15.09.2017" →</customValue>
+    <defaultValue>"Výstup cyklu:\n\n"+exit+"\n\nVytvořil: Jan Černý, 15.09.2017" →</defaultValue>
+    <commands>
+        <entry key="value">"Výstup cyklu:\n\n"+exit+"\n\nVytvořil: Jan Černý, 15.09.2017"</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>"Výstup cyklu:\n\n"+exit
+
++"\n\nVytvořil: Jan Černý, 15.09.2017" →</value>
+</io>
+                            </element>
+                            <description>Ano</description>
+                        </segment>
+                    </element>
+                    <description>Ano</description>
+                </segment>
+            </element>
+            <description>Ne</description>
+        </segment>
+        <segment xsi:type="layoutSegment" xmlID="58" parentElement="56">
+            <element xsi:type="layoutElement" xmlID="59" parentSegment="58">
+                <decision>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>(loopEnd+loopAdd)≤0</defaultValue>
+                    <commands>
+                        <entry key="condition">(loopEnd+loopAdd)&lt;=0</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>(loopEnd+loopAdd)≤0</value>
+                </decision>
+                <segment xsi:type="layoutSegment" xmlID="60" parentElement="59">
+                    <element xsi:type="layoutElement" xmlID="61" parentSegment="60">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <customValue>"Chyba:\n
+loopAdd (kolik přičítat) musí 
+být v rozmezí velikosti cyklu!" →</customValue>
+                            <defaultValue>"Chyba:\nloopAdd (kolik přičítat) musí být v rozmezí velikosti cyklu!" →</defaultValue>
+                            <commands>
+<entry key="value">"Chyba:\nloopAdd (kolik přičítat) musí být v rozmezí velikosti cyklu!"</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Chyba:\n
+loopAdd (kolik přičítat) musí 
+být v rozmezí velikosti cyklu!" →</value>
+                        </io>
+                    </element>
+                    <description>Ne</description>
+                </segment>
+                <segment xsi:type="layoutSegment" xmlID="62" parentElement="59">
+                    <element xsi:type="layoutElement" xmlID="63" parentSegment="62">
+                        <decision>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>loopAdd≠0</defaultValue>
+                            <commands>
+<entry key="condition">loopAdd!=0</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>loopAdd≠0</value>
+                        </decision>
+                        <segment xsi:type="layoutSegment" xmlID="64" parentElement="63">
+                            <element xsi:type="layoutElement" xmlID="65" parentSegment="64">
+<io>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <customValue>"Chyba:\nloopAdd se nesmí
+rovnat nule!" →</customValue>
+    <defaultValue>"Chyba:\nloopAdd se nesmí rovnat nule!" →</defaultValue>
+    <commands>
+        <entry key="value">"Chyba:\nloopAdd se nesmí rovnat nule!"</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>"Chyba:\nloopAdd se nesmí
+rovnat nule!" →</value>
+</io>
+                            </element>
+                            <description>Ne</description>
+                        </segment>
+                        <segment xsi:type="layoutSegment" xmlID="66" parentElement="63">
+                            <element xsi:type="layoutElement" xmlID="80" parentSegment="66">
+<goto>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <customValue>LOOP</customValue>
+    <commands>
+        <entry key="mode">goto</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>LOOP</value>
+</goto>
+                            </element>
+                            <description>Ano</description>
+                        </segment>
+                    </element>
+                    <description>Ano</description>
+                </segment>
+            </element>
+            <description>Ano</description>
+        </segment>
+    </element>
+    <description>Ano</description>
+</segment>
+                            </element>
+                            <description>Ne</description>
+                        </segment>
+                        <segment xsi:type="layoutSegment" xmlID="34" parentElement="31">
+                            <element xsi:type="layoutElement" xmlID="52" parentSegment="34">
+<decision>
+    <borderColor>0,0,0,255</borderColor>
+    <shapeUpColor>255,255,255,255</shapeUpColor>
+    <shapeDownColor>230,230,230,255</shapeDownColor>
+    <hasShadow>true</hasShadow>
+    <defaultValue>(loopEnd≤loopStart)</defaultValue>
+    <commands>
+        <entry key="condition">(loopEnd&lt;=loopStart)</entry>
+    </commands>
+    <commandsValid>true</commandsValid>
+    <value>(loopEnd≤loopStart)</value>
+</decision>
+<segment xsi:type="layoutSegment" xmlID="53" parentElement="52">
+    <element xsi:type="layoutElement" xmlID="55" parentSegment="53">
+        <io>
+            <borderColor>0,0,0,255</borderColor>
+            <shapeUpColor>255,255,255,255</shapeUpColor>
+            <shapeDownColor>230,230,230,255</shapeDownColor>
+            <hasShadow>true</hasShadow>
+            <customValue>"Chyba:\n
+loopEnd (konec cyklu) musí být menší než
+nebo se rovnat loopStart (začátek cyklu)!" →</customValue>
+            <defaultValue>"Chyba:\nloopEnd (konec cyklu) musí být menší než nebo se rovnat loopStart (začátek cyklu)!" →</defaultValue>
+            <commands>
+                <entry key="value">"Chyba:\nloopEnd (konec cyklu) musí být menší než nebo se rovnat loopStart (začátek cyklu)!"</entry>
+            </commands>
+            <commandsValid>true</commandsValid>
+            <value>"Chyba:\n
+loopEnd (konec cyklu) musí být menší než
+nebo se rovnat loopStart (začátek cyklu)!" →</value>
+        </io>
+    </element>
+    <description>Ne</description>
+</segment>
+<segment xsi:type="layoutSegment" xmlID="54" parentElement="52">
+    <element xsi:type="layoutElement" xmlID="35" parentSegment="54">
+        <decision>
+            <borderColor>0,0,0,255</borderColor>
+            <shapeUpColor>255,255,255,255</shapeUpColor>
+            <shapeDownColor>230,230,230,255</shapeDownColor>
+            <hasShadow>true</hasShadow>
+            <defaultValue>(loopEnd-loopAdd)≤0</defaultValue>
+            <commands>
+                <entry key="condition">(loopEnd-loopAdd)&lt;=0</entry>
+            </commands>
+            <commandsValid>true</commandsValid>
+            <value>(loopEnd-loopAdd)≤0</value>
+        </decision>
+        <segment xsi:type="layoutSegment" xmlID="36" parentElement="35">
+            <element xsi:type="layoutElement" xmlID="37" parentSegment="36">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <customValue>"Chyba:\n
+loopAdd (kolik přičítat) musí 
+být v rozmezí velikosti cyklu!" →</customValue>
+                    <defaultValue>"Chyba:\nloopAdd (kolik přičítat) musí být v rozmezí velikosti cyklu!" →</defaultValue>
+                    <commands>
+                        <entry key="value">"Chyba:\nloopAdd (kolik přičítat) musí být v rozmezí velikosti cyklu!"</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>"Chyba:\n
+loopAdd (kolik přičítat) musí 
+být v rozmezí velikosti cyklu!" →</value>
+                </io>
+            </element>
+            <description>Ne</description>
+        </segment>
+        <segment xsi:type="layoutSegment" xmlID="38" parentElement="35">
+            <element xsi:type="layoutElement" xmlID="39" parentSegment="38">
+                <decision>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>loopAdd≠0</defaultValue>
+                    <commands>
+                        <entry key="condition">loopAdd!=0</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>loopAdd≠0</value>
+                </decision>
+                <segment xsi:type="layoutSegment" xmlID="40" parentElement="39">
+                    <element xsi:type="layoutElement" xmlID="41" parentSegment="40">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <customValue>"Chyba:\nloopAdd se nesmí
+rovnat nule!" →</customValue>
+                            <defaultValue>"Chyba:\nloopAdd se nesmí rovnat nule!" →</defaultValue>
+                            <commands>
+<entry key="value">"Chyba:\nloopAdd se nesmí rovnat nule!"</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Chyba:\nloopAdd se nesmí
+rovnat nule!" →</value>
+                        </io>
+                    </element>
+                    <description>Ne</description>
+                </segment>
+                <segment xsi:type="layoutSegment" xmlID="42" parentElement="39">
+                    <element xsi:type="layoutElement" xmlID="43" parentSegment="42">
+                        <goto>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <customValue>LOOP</customValue>
+                            <commands>
+<entry key="mode">goto</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>LOOP</value>
+                        </goto>
+                    </element>
+                    <description>Ano</description>
+                </segment>
+            </element>
+            <description>Ano</description>
+        </segment>
+    </element>
+    <description>Ano</description>
+</segment>
+                            </element>
+                            <description>Ano</description>
+                        </segment>
+                    </element>
+                    <description>Ano</description>
+                </segment>
+            </element>
+            <element xsi:type="layoutElement" xmlID="2" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Konec</value>
+                </startEnd>
+            </element>
+        </mainSegment>
+    </flowchart>
+</flowchartSaveContainer>

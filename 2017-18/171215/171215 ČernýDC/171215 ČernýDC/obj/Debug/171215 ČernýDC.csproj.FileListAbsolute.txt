@@ -1,0 +1,26 @@
+c:\users\honza\source\repos\171215 ČernýDC\171215 ČernýDC\bin\Debug\171215 ČernýDC.exe.config
+c:\users\honza\source\repos\171215 ČernýDC\171215 ČernýDC\bin\Debug\171215 ČernýDC.exe
+c:\users\honza\source\repos\171215 ČernýDC\171215 ČernýDC\bin\Debug\171215 ČernýDC.pdb
+c:\users\honza\source\repos\171215 ČernýDC\171215 ČernýDC\obj\Debug\171215 ČernýDC.csprojResolveAssemblyReference.cache
+c:\users\honza\source\repos\171215 ČernýDC\171215 ČernýDC\obj\Debug\171215 ČernýDC.csproj.CoreCompileInputs.cache
+c:\users\honza\source\repos\171215 ČernýDC\171215 ČernýDC\obj\Debug\171215 ČernýDC.exe
+c:\users\honza\source\repos\171215 ČernýDC\171215 ČernýDC\obj\Debug\171215 ČernýDC.pdb
+C:\Users\cerny.jan.2017\Desktop\171215 ČernýDC\171215 ČernýDC\bin\Debug\171215 ČernýDC.exe.config
+C:\Users\cerny.jan.2017\Desktop\171215 ČernýDC\171215 ČernýDC\obj\Debug\171215 ČernýDC.exe
+C:\Users\cerny.jan.2017\Desktop\171215 ČernýDC\171215 ČernýDC\obj\Debug\171215 ČernýDC.pdb
+C:\Users\cerny.jan.2017\Desktop\171215 ČernýDC\171215 ČernýDC\bin\Debug\171215 ČernýDC.exe
+C:\Users\cerny.jan.2017\Desktop\171215 ČernýDC\171215 ČernýDC\bin\Debug\171215 ČernýDC.pdb
+C:\Users\cerny.jan.2017\Desktop\171215 ČernýDC\171215 ČernýDC\obj\Debug\171215 ČernýDC.csprojResolveAssemblyReference.cache
+C:\Users\honza\source\repos\171215 ČernýDC-upraveny\171215 ČernýDC\bin\Debug\171215 ČernýDC.exe.config
+C:\Users\honza\source\repos\171215 ČernýDC-upraveny\171215 ČernýDC\bin\Debug\171215 ČernýDC.exe
+C:\Users\honza\source\repos\171215 ČernýDC-upraveny\171215 ČernýDC\bin\Debug\171215 ČernýDC.pdb
+C:\Users\honza\source\repos\171215 ČernýDC-upraveny\171215 ČernýDC\obj\Debug\171215 ČernýDC.csprojResolveAssemblyReference.cache
+C:\Users\honza\source\repos\171215 ČernýDC-upraveny\171215 ČernýDC\obj\Debug\171215 ČernýDC.csproj.CoreCompileInputs.cache
+C:\Users\honza\source\repos\171215 ČernýDC-upraveny\171215 ČernýDC\obj\Debug\171215 ČernýDC.exe
+C:\Users\honza\source\repos\171215 ČernýDC-upraveny\171215 ČernýDC\obj\Debug\171215 ČernýDC.pdb
+Z:\PVA\Domácí úkoly\171215\171215 ČernýDC\171215 ČernýDC\bin\Debug\171215 ČernýDC.exe.config
+Z:\PVA\Domácí úkoly\171215\171215 ČernýDC\171215 ČernýDC\obj\Debug\171215 ČernýDC.exe
+Z:\PVA\Domácí úkoly\171215\171215 ČernýDC\171215 ČernýDC\obj\Debug\171215 ČernýDC.pdb
+Z:\PVA\Domácí úkoly\171215\171215 ČernýDC\171215 ČernýDC\obj\Debug\171215 ČernýDC.csprojResolveAssemblyReference.cache
+Z:\PVA\Domácí úkoly\171215\171215 ČernýDC\171215 ČernýDC\bin\Debug\171215 ČernýDC.exe
+Z:\PVA\Domácí úkoly\171215\171215 ČernýDC\171215 ČernýDC\bin\Debug\171215 ČernýDC.pdb

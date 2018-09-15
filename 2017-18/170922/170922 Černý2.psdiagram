@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flowchartSaveContainer>
+    <flowchart>
+        <mainSegment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="layoutSegment" xmlID="0">
+            <element xsi:type="layoutElement" xmlID="1" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Začátek</value>
+                </startEnd>
+            </element>
+            <element xsi:type="layoutElement" xmlID="3" parentSegment="0">
+                <process>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>i ← 1</defaultValue>
+                    <commands>
+                        <entry key="var">i</entry>
+                        <entry key="value">1</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>i ← 1</value>
+                </process>
+            </element>
+            <element xsi:type="layoutElement" xmlID="17" parentSegment="0">
+                <loopStart>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value></value>
+                    <overHanged>false</overHanged>
+                </loopStart>
+                <segment xsi:nil="true"/>
+                <segment xsi:type="layoutSegment" xmlID="18" parentElement="17">
+                    <element xsi:type="layoutElement" xmlID="13" parentSegment="18">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>i →</defaultValue>
+                            <commands>
+<entry key="value">i</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>i →</value>
+                        </io>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="25" parentSegment="18">
+                        <process>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>i ← i+1</defaultValue>
+                            <commands>
+<entry key="var">i</entry>
+<entry key="value">i+1</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>i ← i+1</value>
+                        </process>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="19" parentSegment="18">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <customValue>"Ukončit program?\n
+Zadejte \"k\" pro konec." →</customValue>
+                            <defaultValue>"Ukončit program?\nZadejte \"k\" pro konec." →</defaultValue>
+                            <commands>
+<entry key="value">"Ukončit program?\nZadejte \"k\" pro konec."</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>"Ukončit program?\n
+Zadejte \"k\" pro konec." →</value>
+                        </io>
+                    </element>
+                    <element xsi:type="layoutElement" xmlID="20" parentSegment="18">
+                        <io>
+                            <borderColor>0,0,0,255</borderColor>
+                            <shapeUpColor>255,255,255,255</shapeUpColor>
+                            <shapeDownColor>230,230,230,255</shapeDownColor>
+                            <hasShadow>true</hasShadow>
+                            <defaultValue>exit ←</defaultValue>
+                            <commands>
+<entry key="var">exit</entry>
+                            </commands>
+                            <commandsValid>true</commandsValid>
+                            <value>exit ←</value>
+                        </io>
+                    </element>
+                </segment>
+            </element>
+            <element xsi:type="layoutElement" xmlID="16" parentSegment="0">
+                <loopEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>exit≠"k"</defaultValue>
+                    <commands>
+                        <entry key="condition">exit!="k"</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>exit≠"k"</value>
+                </loopEnd>
+            </element>
+            <element xsi:type="layoutElement" xmlID="21" parentSegment="0">
+                <io>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <defaultValue>"Program se nyní ukončí." →</defaultValue>
+                    <commands>
+                        <entry key="value">"Program se nyní ukončí."</entry>
+                    </commands>
+                    <commandsValid>true</commandsValid>
+                    <value>"Program se nyní ukončí." →</value>
+                </io>
+            </element>
+            <element xsi:type="layoutElement" xmlID="2" parentSegment="0">
+                <startEnd>
+                    <borderColor>0,0,0,255</borderColor>
+                    <shapeUpColor>255,255,255,255</shapeUpColor>
+                    <shapeDownColor>230,230,230,255</shapeDownColor>
+                    <hasShadow>true</hasShadow>
+                    <commandsValid>true</commandsValid>
+                    <value>Konec</value>
+                </startEnd>
+            </element>
+        </mainSegment>
+    </flowchart>
+</flowchartSaveContainer>
