@@ -1,0 +1,28 @@
+Z:\PVA\Cvičení\180927 Černý1\180927 Černý1\bin\Debug\180927 Černý1.exe.config
+Z:\PVA\Cvičení\180927 Černý1\180927 Černý1\bin\Debug\180927 Černý1.exe
+Z:\PVA\Cvičení\180927 Černý1\180927 Černý1\bin\Debug\180927 Černý1.pdb
+Z:\PVA\Cvičení\180927 Černý1\180927 Černý1\obj\Debug\_180927_Černý1.Form1.resources
+Z:\PVA\Cvičení\180927 Černý1\180927 Černý1\obj\Debug\_180927_Černý1.Properties.Resources.resources
+Z:\PVA\Cvičení\180927 Černý1\180927 Černý1\obj\Debug\180927 Černý1.csproj.GenerateResource.Cache
+Z:\PVA\Cvičení\180927 Černý1\180927 Černý1\obj\Debug\180927 Černý1.exe
+Z:\PVA\Cvičení\180927 Černý1\180927 Černý1\obj\Debug\180927 Černý1.pdb
+C:\Users\thewe\Desktop\180927 Černý1\180927 Černý1\bin\Debug\180927 Černý1.exe.config
+C:\Users\thewe\Desktop\180927 Černý1\180927 Černý1\bin\Debug\180927 Černý1.exe
+C:\Users\thewe\Desktop\180927 Černý1\180927 Černý1\bin\Debug\180927 Černý1.pdb
+C:\Users\thewe\Desktop\180927 Černý1\180927 Černý1\obj\Debug\180927 Černý1.csprojResolveAssemblyReference.cache
+C:\Users\thewe\Desktop\180927 Černý1\180927 Černý1\obj\Debug\_180927_Černý1.Form1.resources
+C:\Users\thewe\Desktop\180927 Černý1\180927 Černý1\obj\Debug\_180927_Černý1.Properties.Resources.resources
+C:\Users\thewe\Desktop\180927 Černý1\180927 Černý1\obj\Debug\180927 Černý1.csproj.GenerateResource.cache
+C:\Users\thewe\Desktop\180927 Černý1\180927 Černý1\obj\Debug\180927 Černý1.csproj.CoreCompileInputs.cache
+C:\Users\thewe\Desktop\180927 Černý1\180927 Černý1\obj\Debug\180927 Černý1.exe
+C:\Users\thewe\Desktop\180927 Černý1\180927 Černý1\obj\Debug\180927 Černý1.pdb
+F:\PLOCHA\180927 Černý1-V2\180927 Černý1\bin\Debug\180927 Černý1.exe.config
+F:\PLOCHA\180927 Černý1-V2\180927 Černý1\bin\Debug\180927 Černý1.exe
+F:\PLOCHA\180927 Černý1-V2\180927 Černý1\bin\Debug\180927 Černý1.pdb
+F:\PLOCHA\180927 Černý1-V2\180927 Černý1\obj\Debug\180927 Černý1.csprojAssemblyReference.cache
+F:\PLOCHA\180927 Černý1-V2\180927 Černý1\obj\Debug\_180927_Černý1.Form1.resources
+F:\PLOCHA\180927 Černý1-V2\180927 Černý1\obj\Debug\_180927_Černý1.Properties.Resources.resources
+F:\PLOCHA\180927 Černý1-V2\180927 Černý1\obj\Debug\180927 Černý1.csproj.GenerateResource.cache
+F:\PLOCHA\180927 Černý1-V2\180927 Černý1\obj\Debug\180927 Černý1.csproj.CoreCompileInputs.cache
+F:\PLOCHA\180927 Černý1-V2\180927 Černý1\obj\Debug\180927 Černý1.exe
+F:\PLOCHA\180927 Černý1-V2\180927 Černý1\obj\Debug\180927 Černý1.pdb
