@@ -16,7 +16,7 @@ namespace _180927_Černý1
 
         //Výchozí pozice tlačítek
         static List<Button> _buttonyList       = new List<Button>();
-        static List<Point>  _vychoziPoziceList = new List<Point>();
+        static List<Point>  _vzdalenostOdStredu = new List<Point>();
 
         static int _vychoziVelikost;
 
@@ -24,21 +24,24 @@ namespace _180927_Černý1
         {
             InitializeComponent();
 
-            //Výchozí velikost - šířka prostředního tlačítka
-            _vychoziVelikost = btn5.Size.Width;
-
             //Uložení všech tlačítek do seznamu
-            _buttonyList = new List<Button> {btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9};
+            _buttonyList = new List<Button> { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
 
-            //Uložení výchozí pozice každého tlačítka
+            //Výchozí velikost - šířka prvního tlačítka
+            _vychoziVelikost = _buttonyList[0].Width;
+
+            //Uložení odchylky od středu okna
             foreach (var button in _buttonyList)
             {
-                _vychoziPoziceList.Add(new Point(button.Location.X, button.Location.Y));
+                // ClientSize/2 = střed okna
+                // button.Top nebo button.Left = vzdálenost od okraje okna
+                // Odečtením hodnot se získá vzdálenost od středu
+                _vzdalenostOdStredu.Add(new Point(ClientSize.Width / 2 - button.Left, ClientSize.Height / 2 - button.Top));
             }
         }
         #endregion
 
-        #region Můj další kód
+        #region Ostatní metody
 
         // ----- SMĚRY ----- //
         public enum Smer
@@ -48,7 +51,7 @@ namespace _180927_Černý1
             Nahoru,
             Dolu
         }
-
+        
         // ----- POSUN TLAČÍTEK ----- //
         public void PosunTlacitka(Smer smer, params Button[] buttony)
         {
@@ -114,6 +117,11 @@ namespace _180927_Černý1
                 button.UseVisualStyleBackColor = true;
             }
         }
+
+        private void HighlightOffEvent(object sender, EventArgs e)
+        {
+            HighlightOffAll();
+        }
         #endregion
 
         #region Posunovací tlačítka prostřední - posouvají sebe
@@ -125,24 +133,24 @@ namespace _180927_Černý1
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            PosunTlacitka(Smer.Nahoru, btn1);
-            PosunTlacitka(Smer.Vlevo, btn1);
+            PosunTlacitka(Smer.Nahoru, (Button)sender);
+            PosunTlacitka(Smer.Vlevo, (Button)sender);
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
-            PosunTlacitka(Smer.Nahoru, btn2);
+            PosunTlacitka(Smer.Nahoru, (Button)sender);
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            PosunTlacitka(Smer.Nahoru, btn3);
-            PosunTlacitka(Smer.Vpravo, btn3);
+            PosunTlacitka(Smer.Nahoru, (Button)sender);
+            PosunTlacitka(Smer.Vpravo, (Button)sender);
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
-            PosunTlacitka(Smer.Vlevo, btn4);
+            PosunTlacitka(Smer.Vlevo, (Button)sender);
         }
 
         //Prostřední tlačítko - Reset pozic a velikostí
@@ -150,31 +158,35 @@ namespace _180927_Černý1
         {
             for (int i = 0; i < _buttonyList.Count; i++)
             {
-                _buttonyList[i].Location = _vychoziPoziceList[i];
+                // ClienSize/2 = zjištění středu okna
+                // Odečtení vzdálenosti = o kolik se má posunout od středu
+                _buttonyList[i].Left = ClientSize.Width / 2 - _vzdalenostOdStredu[i].X;
+                _buttonyList[i].Top = ClientSize.Height / 2 - _vzdalenostOdStredu[i].Y;
+
                 _buttonyList[i].Size = new Size(_vychoziVelikost, _vychoziVelikost);
             }
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
-            PosunTlacitka(Smer.Vpravo, btn6); 
+            PosunTlacitka(Smer.Vpravo, (Button)sender); 
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
-            PosunTlacitka(Smer.Dolu, btn7);
-            PosunTlacitka(Smer.Vlevo, btn7);
+            PosunTlacitka(Smer.Dolu, (Button)sender);
+            PosunTlacitka(Smer.Vlevo, (Button)sender);
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
-            PosunTlacitka(Smer.Dolu, btn8);
+            PosunTlacitka(Smer.Dolu, (Button)sender);
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
-            PosunTlacitka(Smer.Dolu, btn9);
-            PosunTlacitka(Smer.Vpravo, btn9);
+            PosunTlacitka(Smer.Dolu, (Button)sender);
+            PosunTlacitka(Smer.Vpravo, (Button)sender);
         }
         #endregion
 
@@ -327,19 +339,9 @@ namespace _180927_Černý1
             HighlightOn(Color.Aqua, btn1, btn2, btn3, btn4, btn7);
         }
 
-        private void btnZvetsi1_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnZvetsi2_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Aqua, btn1, btn2, btn3);
-        }
-
-        private void btnZvetsi2_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
         }
 
         private void btnZvetsi3_MouseEnter(object sender, EventArgs e)
@@ -347,19 +349,9 @@ namespace _180927_Černý1
             HighlightOn(Color.Aqua, btn1, btn2, btn3, btn6, btn9);
         }
 
-        private void btnZvetsi3_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnZvetsi4_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Aqua, btn1, btn4, btn7);
-        }
-
-        private void btnZvetsi4_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
         }
 
         private void btnZvetsi6_MouseEnter(object sender, EventArgs e)
@@ -367,19 +359,9 @@ namespace _180927_Černý1
             HighlightOn(Color.Aqua, btn3, btn6, btn9);
         }
 
-        private void btnZvetsi6_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnZvetsi7_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Aqua, btn1, btn4, btn7, btn8, btn9);
-        }
-
-        private void btnZvetsi7_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
         }
 
         private void btnZvetsi8_MouseEnter(object sender, EventArgs e)
@@ -387,19 +369,9 @@ namespace _180927_Černý1
             HighlightOn(Color.Aqua, btn7, btn8, btn9);
         }
 
-        private void btnZvetsi8_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnZvetsi9_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Aqua, btn3, btn6, btn7, btn8, btn9);
-        }
-
-        private void btnZvetsi9_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
         }
 
         #endregion
@@ -411,19 +383,9 @@ namespace _180927_Černý1
             HighlightOn(Color.Aqua, btn1);
         }
 
-        private void btnZvetsiSingle1_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnZvetsiSingle2_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Aqua, btn2);
-        }
-
-        private void btnZvetsiSingle2_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
         }
 
         private void btnZvetsiSingle3_MouseEnter(object sender, EventArgs e)
@@ -431,19 +393,9 @@ namespace _180927_Černý1
             HighlightOn(Color.Aqua, btn3);
         }
 
-        private void btnZvetsiSingle3_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnZvetsiSingle4_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Aqua, btn4);
-        }
-
-        private void btnZvetsiSingle4_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
         }
 
         private void btnZvetsiSingle6_MouseEnter(object sender, EventArgs e)
@@ -451,19 +403,9 @@ namespace _180927_Černý1
             HighlightOn(Color.Aqua, btn6);
         }
 
-        private void btnZvetsiSingle6_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnZvetsiSingle7_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Aqua, btn7);
-        }
-
-        private void btnZvetsiSingle7_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
         }
 
         private void btnZvetsiSingle8_MouseEnter(object sender, EventArgs e)
@@ -471,21 +413,10 @@ namespace _180927_Černý1
             HighlightOn(Color.Aqua, btn8);
         }
 
-        private void btnZvetsiSingle8_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnZvetsiSingle9_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Aqua, btn9);
         }
-
-        private void btnZvetsiSingle9_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
 
         #endregion
 
@@ -496,19 +427,9 @@ namespace _180927_Černý1
             HighlightOn(Color.Yellow, btn1, btn2, btn3, btn4, btn7);
         }
 
-        private void btnPosun1_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnPosun2_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Yellow, btn1, btn2, btn3);
-        }
-
-        private void btnPosun2_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
         }
 
         private void btnPosun3_MouseEnter(object sender, EventArgs e)
@@ -516,19 +437,9 @@ namespace _180927_Černý1
             HighlightOn(Color.Yellow, btn1, btn2, btn3, btn6, btn9);
         }
 
-        private void btnPosun3_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnPosun4_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Yellow, btn1, btn4, btn7);
-        }
-
-        private void btnPosun4_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
         }
 
         private void btnPosun6_MouseEnter(object sender, EventArgs e)
@@ -536,19 +447,9 @@ namespace _180927_Černý1
             HighlightOn(Color.Yellow, btn3, btn6, btn9);
         }
 
-        private void btnPosun6_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnPosun7_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Yellow, btn1, btn4, btn7, btn8, btn9);
-        }
-
-        private void btnPosun7_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
         }
 
         private void btnPosun8_MouseEnter(object sender, EventArgs e)
@@ -556,20 +457,11 @@ namespace _180927_Černý1
             HighlightOn(Color.Yellow, btn7, btn8, btn9);
         }
 
-        private void btnPosun8_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
-
         private void btnPosun9_MouseEnter(object sender, EventArgs e)
         {
             HighlightOn(Color.Yellow, btn3, btn6, btn7, btn8, btn9);
         }
-
-        private void btnPosun9_MouseLeave(object sender, EventArgs e)
-        {
-            HighlightOffAll();
-        }
+        
         #endregion
     }
 }

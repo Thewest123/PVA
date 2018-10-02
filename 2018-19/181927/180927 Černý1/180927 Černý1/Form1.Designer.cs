@@ -68,6 +68,7 @@
             // 
             // btn1
             // 
+            this.btn1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn1.Cursor = System.Windows.Forms.Cursors.PanNW;
             this.btn1.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btn1.Location = new System.Drawing.Point(386, 231);
@@ -80,6 +81,7 @@
             // 
             // btn2
             // 
+            this.btn2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn2.Cursor = System.Windows.Forms.Cursors.PanNorth;
             this.btn2.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btn2.Location = new System.Drawing.Point(411, 231);
@@ -92,6 +94,7 @@
             // 
             // btn3
             // 
+            this.btn3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn3.Cursor = System.Windows.Forms.Cursors.PanNE;
             this.btn3.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btn3.Location = new System.Drawing.Point(436, 231);
@@ -104,6 +107,7 @@
             // 
             // btn6
             // 
+            this.btn6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn6.Cursor = System.Windows.Forms.Cursors.PanEast;
             this.btn6.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btn6.Location = new System.Drawing.Point(436, 256);
@@ -116,6 +120,7 @@
             // 
             // btn5
             // 
+            this.btn5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn5.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btn5.Location = new System.Drawing.Point(411, 256);
             this.btn5.Name = "btn5";
@@ -127,6 +132,7 @@
             // 
             // btn4
             // 
+            this.btn4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn4.Cursor = System.Windows.Forms.Cursors.PanWest;
             this.btn4.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btn4.Location = new System.Drawing.Point(386, 256);
@@ -139,6 +145,7 @@
             // 
             // btn9
             // 
+            this.btn9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn9.Cursor = System.Windows.Forms.Cursors.PanSE;
             this.btn9.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btn9.Location = new System.Drawing.Point(436, 281);
@@ -151,6 +158,7 @@
             // 
             // btn8
             // 
+            this.btn8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn8.Cursor = System.Windows.Forms.Cursors.PanSouth;
             this.btn8.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btn8.Location = new System.Drawing.Point(411, 281);
@@ -163,6 +171,7 @@
             // 
             // btn7
             // 
+            this.btn7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn7.Cursor = System.Windows.Forms.Cursors.PanSW;
             this.btn7.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.btn7.Location = new System.Drawing.Point(386, 281);
@@ -186,7 +195,7 @@
             this.btnZvetsiSingle1.UseVisualStyleBackColor = false;
             this.btnZvetsiSingle1.Click += new System.EventHandler(this.btnZvetsiSingle1_Click);
             this.btnZvetsiSingle1.MouseEnter += new System.EventHandler(this.btnZvetsiSingle1_MouseEnter);
-            this.btnZvetsiSingle1.MouseLeave += new System.EventHandler(this.btnZvetsiSingle1_MouseLeave);
+            this.btnZvetsiSingle1.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsi1
             // 
@@ -201,10 +210,11 @@
             this.btnZvetsi1.UseVisualStyleBackColor = false;
             this.btnZvetsi1.Click += new System.EventHandler(this.btnZvetsi1_Click);
             this.btnZvetsi1.MouseEnter += new System.EventHandler(this.btnZvetsi1_MouseEnter);
-            this.btnZvetsi1.MouseLeave += new System.EventHandler(this.btnZvetsi1_MouseLeave);
+            this.btnZvetsi1.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsiSingle3
             // 
+            this.btnZvetsiSingle3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnZvetsiSingle3.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsiSingle3.Cursor = System.Windows.Forms.Cursors.PanNE;
             this.btnZvetsiSingle3.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -216,10 +226,11 @@
             this.btnZvetsiSingle3.UseVisualStyleBackColor = false;
             this.btnZvetsiSingle3.Click += new System.EventHandler(this.btnZvetsiSingle3_Click);
             this.btnZvetsiSingle3.MouseEnter += new System.EventHandler(this.btnZvetsiSingle3_MouseEnter);
-            this.btnZvetsiSingle3.MouseLeave += new System.EventHandler(this.btnZvetsiSingle3_MouseLeave);
+            this.btnZvetsiSingle3.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsi3
             // 
+            this.btnZvetsi3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnZvetsi3.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsi3.Cursor = System.Windows.Forms.Cursors.PanNE;
             this.btnZvetsi3.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -231,10 +242,11 @@
             this.btnZvetsi3.UseVisualStyleBackColor = false;
             this.btnZvetsi3.Click += new System.EventHandler(this.btnZvetsi3_Click);
             this.btnZvetsi3.MouseEnter += new System.EventHandler(this.btnZvetsi3_MouseEnter);
-            this.btnZvetsi3.MouseLeave += new System.EventHandler(this.btnZvetsi3_MouseLeave);
+            this.btnZvetsi3.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsiSingle4
             // 
+            this.btnZvetsiSingle4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnZvetsiSingle4.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsiSingle4.Cursor = System.Windows.Forms.Cursors.PanWest;
             this.btnZvetsiSingle4.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -246,10 +258,11 @@
             this.btnZvetsiSingle4.UseVisualStyleBackColor = false;
             this.btnZvetsiSingle4.Click += new System.EventHandler(this.btnZvetsiSingle4_Click);
             this.btnZvetsiSingle4.MouseEnter += new System.EventHandler(this.btnZvetsiSingle4_MouseEnter);
-            this.btnZvetsiSingle4.MouseLeave += new System.EventHandler(this.btnZvetsiSingle4_MouseLeave);
+            this.btnZvetsiSingle4.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsi4
             // 
+            this.btnZvetsi4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnZvetsi4.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsi4.Cursor = System.Windows.Forms.Cursors.PanWest;
             this.btnZvetsi4.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -261,10 +274,11 @@
             this.btnZvetsi4.UseVisualStyleBackColor = false;
             this.btnZvetsi4.Click += new System.EventHandler(this.btnZvetsi4_Click);
             this.btnZvetsi4.MouseEnter += new System.EventHandler(this.btnZvetsi4_MouseEnter);
-            this.btnZvetsi4.MouseLeave += new System.EventHandler(this.btnZvetsi4_MouseLeave);
+            this.btnZvetsi4.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsiSingle6
             // 
+            this.btnZvetsiSingle6.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnZvetsiSingle6.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsiSingle6.Cursor = System.Windows.Forms.Cursors.PanEast;
             this.btnZvetsiSingle6.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -276,10 +290,11 @@
             this.btnZvetsiSingle6.UseVisualStyleBackColor = false;
             this.btnZvetsiSingle6.Click += new System.EventHandler(this.btnZvetsiSingle6_Click);
             this.btnZvetsiSingle6.MouseEnter += new System.EventHandler(this.btnZvetsiSingle6_MouseEnter);
-            this.btnZvetsiSingle6.MouseLeave += new System.EventHandler(this.btnZvetsiSingle6_MouseLeave);
+            this.btnZvetsiSingle6.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsi6
             // 
+            this.btnZvetsi6.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnZvetsi6.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsi6.Cursor = System.Windows.Forms.Cursors.PanEast;
             this.btnZvetsi6.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -291,10 +306,11 @@
             this.btnZvetsi6.UseVisualStyleBackColor = false;
             this.btnZvetsi6.Click += new System.EventHandler(this.btnZvetsi6_Click);
             this.btnZvetsi6.MouseEnter += new System.EventHandler(this.btnZvetsi6_MouseEnter);
-            this.btnZvetsi6.MouseLeave += new System.EventHandler(this.btnZvetsi6_MouseLeave);
+            this.btnZvetsi6.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsiSingle8
             // 
+            this.btnZvetsiSingle8.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnZvetsiSingle8.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsiSingle8.Cursor = System.Windows.Forms.Cursors.PanSouth;
             this.btnZvetsiSingle8.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -306,10 +322,11 @@
             this.btnZvetsiSingle8.UseVisualStyleBackColor = false;
             this.btnZvetsiSingle8.Click += new System.EventHandler(this.btnZvetsiSingle8_Click);
             this.btnZvetsiSingle8.MouseEnter += new System.EventHandler(this.btnZvetsiSingle8_MouseEnter);
-            this.btnZvetsiSingle8.MouseLeave += new System.EventHandler(this.btnZvetsiSingle8_MouseLeave);
+            this.btnZvetsiSingle8.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsi8
             // 
+            this.btnZvetsi8.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnZvetsi8.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsi8.Cursor = System.Windows.Forms.Cursors.PanSouth;
             this.btnZvetsi8.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -321,10 +338,11 @@
             this.btnZvetsi8.UseVisualStyleBackColor = false;
             this.btnZvetsi8.Click += new System.EventHandler(this.btnZvetsi8_Click);
             this.btnZvetsi8.MouseEnter += new System.EventHandler(this.btnZvetsi8_MouseEnter);
-            this.btnZvetsi8.MouseLeave += new System.EventHandler(this.btnZvetsi8_MouseLeave);
+            this.btnZvetsi8.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsiSingle7
             // 
+            this.btnZvetsiSingle7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnZvetsiSingle7.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsiSingle7.Cursor = System.Windows.Forms.Cursors.PanSW;
             this.btnZvetsiSingle7.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -336,10 +354,11 @@
             this.btnZvetsiSingle7.UseVisualStyleBackColor = false;
             this.btnZvetsiSingle7.Click += new System.EventHandler(this.btnZvetsiSingle7_Click);
             this.btnZvetsiSingle7.MouseEnter += new System.EventHandler(this.btnZvetsiSingle7_MouseEnter);
-            this.btnZvetsiSingle7.MouseLeave += new System.EventHandler(this.btnZvetsiSingle7_MouseLeave);
+            this.btnZvetsiSingle7.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsi7
             // 
+            this.btnZvetsi7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnZvetsi7.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsi7.Cursor = System.Windows.Forms.Cursors.PanSW;
             this.btnZvetsi7.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -351,10 +370,11 @@
             this.btnZvetsi7.UseVisualStyleBackColor = false;
             this.btnZvetsi7.Click += new System.EventHandler(this.btnZvetsi7_Click);
             this.btnZvetsi7.MouseEnter += new System.EventHandler(this.btnZvetsi7_MouseEnter);
-            this.btnZvetsi7.MouseLeave += new System.EventHandler(this.btnZvetsi7_MouseLeave);
+            this.btnZvetsi7.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsiSingle2
             // 
+            this.btnZvetsiSingle2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnZvetsiSingle2.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsiSingle2.Cursor = System.Windows.Forms.Cursors.PanNorth;
             this.btnZvetsiSingle2.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -366,10 +386,11 @@
             this.btnZvetsiSingle2.UseVisualStyleBackColor = false;
             this.btnZvetsiSingle2.Click += new System.EventHandler(this.btnZvetsiSingle2_Click);
             this.btnZvetsiSingle2.MouseEnter += new System.EventHandler(this.btnZvetsiSingle2_MouseEnter);
-            this.btnZvetsiSingle2.MouseLeave += new System.EventHandler(this.btnZvetsiSingle2_MouseLeave);
+            this.btnZvetsiSingle2.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsi2
             // 
+            this.btnZvetsi2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnZvetsi2.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsi2.Cursor = System.Windows.Forms.Cursors.PanNorth;
             this.btnZvetsi2.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -381,10 +402,11 @@
             this.btnZvetsi2.UseVisualStyleBackColor = false;
             this.btnZvetsi2.Click += new System.EventHandler(this.btnZvetsi2_Click);
             this.btnZvetsi2.MouseEnter += new System.EventHandler(this.btnZvetsi2_MouseEnter);
-            this.btnZvetsi2.MouseLeave += new System.EventHandler(this.btnZvetsi2_MouseLeave);
+            this.btnZvetsi2.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsiSingle9
             // 
+            this.btnZvetsiSingle9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnZvetsiSingle9.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsiSingle9.Cursor = System.Windows.Forms.Cursors.PanSE;
             this.btnZvetsiSingle9.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -396,10 +418,11 @@
             this.btnZvetsiSingle9.UseVisualStyleBackColor = false;
             this.btnZvetsiSingle9.Click += new System.EventHandler(this.btnZvetsiSingle9_Click);
             this.btnZvetsiSingle9.MouseEnter += new System.EventHandler(this.btnZvetsiSingle9_MouseEnter);
-            this.btnZvetsiSingle9.MouseLeave += new System.EventHandler(this.btnZvetsiSingle9_MouseLeave);
+            this.btnZvetsiSingle9.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnZvetsi9
             // 
+            this.btnZvetsi9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnZvetsi9.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnZvetsi9.Cursor = System.Windows.Forms.Cursors.PanSE;
             this.btnZvetsi9.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -411,7 +434,7 @@
             this.btnZvetsi9.UseVisualStyleBackColor = false;
             this.btnZvetsi9.Click += new System.EventHandler(this.btnZvetsi9_Click);
             this.btnZvetsi9.MouseEnter += new System.EventHandler(this.btnZvetsi9_MouseEnter);
-            this.btnZvetsi9.MouseLeave += new System.EventHandler(this.btnZvetsi9_MouseLeave);
+            this.btnZvetsi9.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnPosun1
             // 
@@ -426,10 +449,11 @@
             this.btnPosun1.UseVisualStyleBackColor = false;
             this.btnPosun1.Click += new System.EventHandler(this.btnPosun1_Click);
             this.btnPosun1.MouseEnter += new System.EventHandler(this.btnPosun1_MouseEnter);
-            this.btnPosun1.MouseLeave += new System.EventHandler(this.btnPosun1_MouseLeave);
+            this.btnPosun1.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnPosun2
             // 
+            this.btnPosun2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnPosun2.BackColor = System.Drawing.Color.Gold;
             this.btnPosun2.Cursor = System.Windows.Forms.Cursors.PanNorth;
             this.btnPosun2.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -441,10 +465,11 @@
             this.btnPosun2.UseVisualStyleBackColor = false;
             this.btnPosun2.Click += new System.EventHandler(this.btnPosun2_Click);
             this.btnPosun2.MouseEnter += new System.EventHandler(this.btnPosun2_MouseEnter);
-            this.btnPosun2.MouseLeave += new System.EventHandler(this.btnPosun2_MouseLeave);
+            this.btnPosun2.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnPosun3
             // 
+            this.btnPosun3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPosun3.BackColor = System.Drawing.Color.Gold;
             this.btnPosun3.Cursor = System.Windows.Forms.Cursors.PanNE;
             this.btnPosun3.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -456,10 +481,11 @@
             this.btnPosun3.UseVisualStyleBackColor = false;
             this.btnPosun3.Click += new System.EventHandler(this.btnPosun3_Click);
             this.btnPosun3.MouseEnter += new System.EventHandler(this.btnPosun3_MouseEnter);
-            this.btnPosun3.MouseLeave += new System.EventHandler(this.btnPosun3_MouseLeave);
+            this.btnPosun3.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnPosun6
             // 
+            this.btnPosun6.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnPosun6.BackColor = System.Drawing.Color.Gold;
             this.btnPosun6.Cursor = System.Windows.Forms.Cursors.PanEast;
             this.btnPosun6.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -471,10 +497,11 @@
             this.btnPosun6.UseVisualStyleBackColor = false;
             this.btnPosun6.Click += new System.EventHandler(this.btnPosun6_Click);
             this.btnPosun6.MouseEnter += new System.EventHandler(this.btnPosun6_MouseEnter);
-            this.btnPosun6.MouseLeave += new System.EventHandler(this.btnPosun6_MouseLeave);
+            this.btnPosun6.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnPosun9
             // 
+            this.btnPosun9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPosun9.BackColor = System.Drawing.Color.Gold;
             this.btnPosun9.Cursor = System.Windows.Forms.Cursors.PanSE;
             this.btnPosun9.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -486,10 +513,11 @@
             this.btnPosun9.UseVisualStyleBackColor = false;
             this.btnPosun9.Click += new System.EventHandler(this.btnPosun9_Click);
             this.btnPosun9.MouseEnter += new System.EventHandler(this.btnPosun9_MouseEnter);
-            this.btnPosun9.MouseLeave += new System.EventHandler(this.btnPosun9_MouseLeave);
+            this.btnPosun9.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnPosun8
             // 
+            this.btnPosun8.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnPosun8.BackColor = System.Drawing.Color.Gold;
             this.btnPosun8.Cursor = System.Windows.Forms.Cursors.PanSouth;
             this.btnPosun8.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -501,10 +529,11 @@
             this.btnPosun8.UseVisualStyleBackColor = false;
             this.btnPosun8.Click += new System.EventHandler(this.btnPosun8_Click);
             this.btnPosun8.MouseEnter += new System.EventHandler(this.btnPosun8_MouseEnter);
-            this.btnPosun8.MouseLeave += new System.EventHandler(this.btnPosun8_MouseLeave);
+            this.btnPosun8.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnPosun7
             // 
+            this.btnPosun7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnPosun7.BackColor = System.Drawing.Color.Gold;
             this.btnPosun7.Cursor = System.Windows.Forms.Cursors.PanSW;
             this.btnPosun7.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -516,10 +545,11 @@
             this.btnPosun7.UseVisualStyleBackColor = false;
             this.btnPosun7.Click += new System.EventHandler(this.btnPosun7_Click);
             this.btnPosun7.MouseEnter += new System.EventHandler(this.btnPosun7_MouseEnter);
-            this.btnPosun7.MouseLeave += new System.EventHandler(this.btnPosun7_MouseLeave);
+            this.btnPosun7.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // btnPosun4
             // 
+            this.btnPosun4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnPosun4.BackColor = System.Drawing.Color.Gold;
             this.btnPosun4.Cursor = System.Windows.Forms.Cursors.PanWest;
             this.btnPosun4.Font = new System.Drawing.Font("Wingdings 3", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -531,7 +561,7 @@
             this.btnPosun4.UseVisualStyleBackColor = false;
             this.btnPosun4.Click += new System.EventHandler(this.btnPosun4_Click);
             this.btnPosun4.MouseEnter += new System.EventHandler(this.btnPosun4_MouseEnter);
-            this.btnPosun4.MouseLeave += new System.EventHandler(this.btnPosun4_MouseLeave);
+            this.btnPosun4.MouseLeave += new System.EventHandler(this.HighlightOffEvent);
             // 
             // lblPosuny
             // 
@@ -595,8 +625,8 @@
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(500, 350);
             this.Name = "Form1";
             this.Text = "Tlačítka";
             this.ResumeLayout(false);
