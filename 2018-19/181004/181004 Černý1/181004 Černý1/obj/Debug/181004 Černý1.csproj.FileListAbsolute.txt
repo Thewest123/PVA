@@ -1,0 +1,10 @@
+C:\Users\honza\source\repos\181004 Černý1\181004 Černý1\bin\Debug\181004 Černý1.exe.config
+C:\Users\honza\source\repos\181004 Černý1\181004 Černý1\bin\Debug\181004 Černý1.exe
+C:\Users\honza\source\repos\181004 Černý1\181004 Černý1\bin\Debug\181004 Černý1.pdb
+C:\Users\honza\source\repos\181004 Černý1\181004 Černý1\obj\Debug\181004 Černý1.csprojAssemblyReference.cache
+C:\Users\honza\source\repos\181004 Černý1\181004 Černý1\obj\Debug\_181004_Černý1.FormBarvy.resources
+C:\Users\honza\source\repos\181004 Černý1\181004 Černý1\obj\Debug\_181004_Černý1.Properties.Resources.resources
+C:\Users\honza\source\repos\181004 Černý1\181004 Černý1\obj\Debug\181004 Černý1.csproj.GenerateResource.cache
+C:\Users\honza\source\repos\181004 Černý1\181004 Černý1\obj\Debug\181004 Černý1.csproj.CoreCompileInputs.cache
+C:\Users\honza\source\repos\181004 Černý1\181004 Černý1\obj\Debug\181004 Černý1.exe
+C:\Users\honza\source\repos\181004 Černý1\181004 Černý1\obj\Debug\181004 Černý1.pdb
