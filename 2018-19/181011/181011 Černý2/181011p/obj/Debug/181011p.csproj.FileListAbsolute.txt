@@ -1,0 +1,31 @@
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\bin\Debug\181011p.exe.config
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\bin\Debug\181011p.exe
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\bin\Debug\181011p.pdb
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\181011p.csprojResolveAssemblyReference.cache
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\_181011p.Form1.resources
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\_181011p.Properties.Resources.resources
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\181011p.csproj.GenerateResource.Cache
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\181011p.exe
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\181011p.pdb
+H:\sspš\2018 2019\2b čt 56\181011cs\181011p\bin\Debug\181011p.exe.config
+H:\sspš\2018 2019\2b čt 56\181011cs\181011p\obj\Debug\181011p.exe
+H:\sspš\2018 2019\2b čt 56\181011cs\181011p\obj\Debug\181011p.pdb
+Z:\PVA\Cvičení\181011 Černý\181011p\bin\Debug\181011p.exe.config
+Z:\PVA\Cvičení\181011 Černý\181011p\obj\Debug\181011p.exe
+Z:\PVA\Cvičení\181011 Černý\181011p\obj\Debug\181011p.pdb
+Z:\PVA\Cvičení\181011 Černý\181011p\bin\Debug\181011p.exe
+Z:\PVA\Cvičení\181011 Černý\181011p\bin\Debug\181011p.pdb
+Z:\PVA\Cvičení\181011 Černý\181011p\obj\Debug\181011p.csprojResolveAssemblyReference.cache
+Z:\PVA\Cvičení\181011 Černý\181011p\obj\Debug\_181011p.Form1.resources
+Z:\PVA\Cvičení\181011 Černý\181011p\obj\Debug\_181011p.Properties.Resources.resources
+Z:\PVA\Cvičení\181011 Černý\181011p\obj\Debug\181011p.csproj.GenerateResource.Cache
+C:\Users\thewe\Desktop\181011 Černý-V2\181011p\bin\Debug\181011p.exe.config
+C:\Users\thewe\Desktop\181011 Černý-V2\181011p\bin\Debug\181011p.exe
+C:\Users\thewe\Desktop\181011 Černý-V2\181011p\bin\Debug\181011p.pdb
+C:\Users\thewe\Desktop\181011 Černý-V2\181011p\obj\Debug\181011p.csprojResolveAssemblyReference.cache
+C:\Users\thewe\Desktop\181011 Černý-V2\181011p\obj\Debug\_181011p.Form1.resources
+C:\Users\thewe\Desktop\181011 Černý-V2\181011p\obj\Debug\_181011p.Properties.Resources.resources
+C:\Users\thewe\Desktop\181011 Černý-V2\181011p\obj\Debug\181011p.csproj.GenerateResource.cache
+C:\Users\thewe\Desktop\181011 Černý-V2\181011p\obj\Debug\181011p.csproj.CoreCompileInputs.cache
+C:\Users\thewe\Desktop\181011 Černý-V2\181011p\obj\Debug\181011p.exe
+C:\Users\thewe\Desktop\181011 Černý-V2\181011p\obj\Debug\181011p.pdb

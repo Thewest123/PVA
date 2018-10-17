@@ -1,0 +1,40 @@
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\bin\Debug\181011p.exe.config
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\bin\Debug\181011p.exe
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\bin\Debug\181011p.pdb
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\181011p.csprojResolveAssemblyReference.cache
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\_181011p.Form1.resources
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\_181011p.Properties.Resources.resources
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\181011p.csproj.GenerateResource.Cache
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\181011p.exe
+H:\sspš\2018 2019\2b čt 56\181011p\181011p\obj\Debug\181011p.pdb
+H:\sspš\2018 2019\2b čt 56\181011c\181011p\bin\Debug\181011p.exe.config
+H:\sspš\2018 2019\2b čt 56\181011c\181011p\obj\Debug\181011p.exe
+H:\sspš\2018 2019\2b čt 56\181011c\181011p\obj\Debug\181011p.pdb
+H:\sspš\2018 2019\2b čt 56\181011c\181011p\bin\Debug\181011p.exe
+H:\sspš\2018 2019\2b čt 56\181011c\181011p\bin\Debug\181011p.pdb
+H:\sspš\2018 2019\2b čt 56\181011c\181011p\obj\Debug\181011p.csprojResolveAssemblyReference.cache
+H:\sspš\2018 2019\2b čt 56\181011c\181011p\obj\Debug\_181011p.Form1.resources
+H:\sspš\2018 2019\2b čt 56\181011c\181011p\obj\Debug\_181011p.Properties.Resources.resources
+H:\sspš\2018 2019\2b čt 56\181011c\181011p\obj\Debug\181011p.csproj.GenerateResource.Cache
+H:\sspš\2018 2019\2b čt 56\181011cd\181011p\bin\Debug\181011p.exe.config
+H:\sspš\2018 2019\2b čt 56\181011cd\181011p\obj\Debug\181011p.exe
+H:\sspš\2018 2019\2b čt 56\181011cd\181011p\obj\Debug\181011p.pdb
+H:\sspš\2018 2019\2b čt 56\181011cd\181011p\bin\Debug\181011p.exe
+H:\sspš\2018 2019\2b čt 56\181011cd\181011p\bin\Debug\181011p.pdb
+H:\sspš\2018 2019\2b čt 56\181011cd\181011p\obj\Debug\181011p.csprojResolveAssemblyReference.cache
+H:\sspš\2018 2019\2b čt 56\181011cd\181011p\obj\Debug\_181011p.Form1.resources
+H:\sspš\2018 2019\2b čt 56\181011cd\181011p\obj\Debug\_181011p.Properties.Resources.resources
+H:\sspš\2018 2019\2b čt 56\181011cd\181011p\obj\Debug\181011p.csproj.GenerateResource.Cache
+H:\sspš\2018 2019\2b čt 56\181011ds\181011p\bin\Debug\181011p.exe.config
+H:\sspš\2018 2019\2b čt 56\181011ds\181011p\obj\Debug\181011p.exe
+H:\sspš\2018 2019\2b čt 56\181011ds\181011p\obj\Debug\181011p.pdb
+F:\PLOCHA\181011ds\181011p\bin\Debug\181011p.exe.config
+F:\PLOCHA\181011ds\181011p\bin\Debug\181011p.exe
+F:\PLOCHA\181011ds\181011p\bin\Debug\181011p.pdb
+F:\PLOCHA\181011ds\181011p\obj\Debug\181011p.csprojAssemblyReference.cache
+F:\PLOCHA\181011ds\181011p\obj\Debug\_181011p.Form1.resources
+F:\PLOCHA\181011ds\181011p\obj\Debug\_181011p.Properties.Resources.resources
+F:\PLOCHA\181011ds\181011p\obj\Debug\181011p.csproj.GenerateResource.cache
+F:\PLOCHA\181011ds\181011p\obj\Debug\181011p.csproj.CoreCompileInputs.cache
+F:\PLOCHA\181011ds\181011p\obj\Debug\181011p.exe
+F:\PLOCHA\181011ds\181011p\obj\Debug\181011p.pdb
