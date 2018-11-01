@@ -1,0 +1,21 @@
+Škodlivé kódy se mohou šíøit pøes Word, varovali bezpeènostní experti
+Kritickou chybu v populárním textovém editoru Word, za kterým stojí americký softwarový gigant Microsoft, objevili bezpeènostní experti ze spoleènosti Cymulate. Zranitelnost mohou útoèníci zneužít k propašování škodlivého kódu do cizího poèítaèe.
+ Ilustraèní foto
+Ilustraèní foto
+
+FOTO: archív tvùrcù
+
+Dnes 13:22
+
+ort, Novinky
+
+Chyba se týká nejnovìjší verze Wordu a je velmi závažná mimo jiné i proto, že zatím nebyla opravena.
+
+Kybernetiètí útoèníci mohou do dokumentu ve Wordu umístit škodlivý kód, a to prostøednictvím funkce pro vkládání videa. Ve chvíli, kdy se uživatel snaží video pøehrát, dojde k infiltraci nezvaného návštìvníka do poèítaèe.
+
+Pak si mohou útoèníci dìlat s poèítaèem prakticky cokoliv. Pøistupovat k uloženým datùm na dálku, stahovat do nìj další škodlivé kódy nebo napøíklad odposlouchávat internetovou komunikaci uživatele.
+
+Nevyžádané e-maily a podvodné weby 
+Škodlivé dokumenty se mohou šíøit prostøednictvím nevyžádaných e-mailù, stejnì tak se ale mohou vyskytovat na podvodných webových stránkách, odkud je nic netušící uživatelé následnì stáhnou.
+
+Další podrobnosti o zranitelnosti bezpeènostní experti ze spoleènosti Cymulate s ohledem na možné zneužití neprozradili. Zdùraznili pouze, že na celou záležitost již upozornili pracovníky Microsoftu, aby mohli zjednat nápravu.
