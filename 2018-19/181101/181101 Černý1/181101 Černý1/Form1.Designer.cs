@@ -40,6 +40,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblPocet = new System.Windows.Forms.Label();
             this.lblKolo = new System.Windows.Forms.Label();
+            this.btnStartAll = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tbSpeed)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbRounds)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numCarsNumber)).BeginInit();
@@ -102,12 +103,12 @@
             // 
             this.numCarsNumber.Location = new System.Drawing.Point(93, 49);
             this.numCarsNumber.Maximum = new decimal(new int[] {
-            30,
+            50,
             0,
             0,
             0});
             this.numCarsNumber.Minimum = new decimal(new int[] {
-            2,
+            1,
             0,
             0,
             0});
@@ -115,7 +116,7 @@
             this.numCarsNumber.Size = new System.Drawing.Size(37, 20);
             this.numCarsNumber.TabIndex = 9;
             this.numCarsNumber.Value = new decimal(new int[] {
-            2,
+            3,
             0,
             0,
             0});
@@ -140,11 +141,21 @@
             // lblKolo
             // 
             this.lblKolo.AutoSize = true;
-            this.lblKolo.Location = new System.Drawing.Point(323, 66);
+            this.lblKolo.Location = new System.Drawing.Point(323, 80);
             this.lblKolo.Name = "lblKolo";
-            this.lblKolo.Size = new System.Drawing.Size(28, 13);
+            this.lblKolo.Size = new System.Drawing.Size(31, 13);
             this.lblKolo.TabIndex = 12;
-            this.lblKolo.Text = "Kolo";
+            this.lblKolo.Text = "Kolo:";
+            // 
+            // btnStartAll
+            // 
+            this.btnStartAll.Location = new System.Drawing.Point(136, 48);
+            this.btnStartAll.Name = "btnStartAll";
+            this.btnStartAll.Size = new System.Drawing.Size(75, 23);
+            this.btnStartAll.TabIndex = 13;
+            this.btnStartAll.Text = "Spustit vše";
+            this.btnStartAll.UseVisualStyleBackColor = true;
+            this.btnStartAll.Click += new System.EventHandler(this.btnStartAll_Click);
             // 
             // Form1
             // 
@@ -152,6 +163,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(354, 166);
             this.Controls.Add(this.lblKolo);
+            this.Controls.Add(this.btnStartAll);
             this.Controls.Add(this.lblPocet);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.numCarsNumber);
@@ -184,6 +196,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblPocet;
         private System.Windows.Forms.Label lblKolo;
+        private System.Windows.Forms.Button btnStartAll;
     }
 }
 

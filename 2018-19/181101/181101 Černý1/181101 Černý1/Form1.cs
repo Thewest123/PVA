@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -22,46 +23,33 @@ namespace _181101_Černý1
             Reset();
         }
 
-        private void timer_Tick(object sender, EventArgs e)
+        //Vegenerování labelů autíček a kol
+        private void GenerateCars()
         {
-            var rand = new Random();
+            //Vyresetování listu autíček a panelů
+            cars.Clear();
+            panel1.Controls.Clear();
+            panel2.Controls.Clear();
 
-            for (int i = 0; i < cars.Count; i++)
+            //Přidání autíček
+            for (int i = 0; i < numCarsNumber.Value; i++)
             {
-                //Otáčení směru pohybu autíček a přidávání kol
-                if (cars[i].CarLabel.Left > panel1.Width - cars[i].CarLabel.Width)
-                {
-                    cars[i].Direction = Direction.Left;
-                    cars[i].CarLabel.Left = panel1.Width - cars[i].CarLabel.Width;
-                    cars[i].RoundsLabel.Text = (++cars[i].RoundsPassed).ToString();
-                }
+                //Label pro autíčko
+                Label carLabel = new Label();
+                carLabel.AutoSize = true;
+                carLabel.Click += SetCar;
 
-                if (cars[i].CarLabel.Left < 0)
-                {
-                    cars[i].Direction = Direction.Right;
-                    cars[i].CarLabel.Left = 0;
-                    cars[i].RoundsLabel.Text = (++cars[i].RoundsPassed).ToString();
-                }
+                //Label pro kola
+                Label roundsLabel = new Label();
+                roundsLabel.AutoSize = true;
 
-                //Ověření výherce
-                if (cars[i].RoundsPassed == tbRounds.Value)
-                {
-                    timer.Stop();
-                    MessageBox.Show($"Vítězem je autíčko {cars[i].CarLabel.Text} s barvou {cars[i].CarLabel.BackColor}", $"Vítěz {cars[i].CarLabel.Text}");
-                    Reset();
-                    break;
-                }
+                //Vytvoření autíčka s labely a přidání do listu
+                cars.Add(new Car(carLabel, roundsLabel));
 
-                //Pohyb autíček
-                if (cars[i].Direction == Direction.Right) cars[i].CarLabel.Left += rand.Next(1, tbSpeed.Value + 1);
-                else cars[i].CarLabel.Left -= rand.Next(1, tbSpeed.Value + 1);
+                //Zobrazení prvnků v panelech
+                panel1.Controls.Add(carLabel);
+                panel2.Controls.Add(roundsLabel);
             }
-        }
-
-        private void numCarsNumber_ValueChanged(object sender, EventArgs e)
-        {
-            GenerateCars();
-            Reset();
         }
 
         //Metoda po stisku labelu (autíčka) na připravení na start
@@ -103,7 +91,7 @@ namespace _181101_Černý1
         {
             for (int i = 0; i < cars.Count; i++)
             {
-                cars[i].ResetCar($"Z{i+1}");
+                cars[i].ResetCar($"Z{i + 1}");
             }
 
             //Změna velikosti okna
@@ -113,33 +101,62 @@ namespace _181101_Černý1
             numCarsNumber.Enabled = true;
         }
 
-        //Vegenerování labelů autíček a kol
-        private void GenerateCars()
+        private void timer_Tick(object sender, EventArgs e)
         {
-            //Vyresetování listu autíček a panelů
-            cars.Clear();
-            panel1.Controls.Clear();
-            panel2.Controls.Clear();
+            var rand = new Random();
 
-            //Přidání autíček
-            for (int i = 0; i < numCarsNumber.Value; i++)
+            foreach (var car in cars)
             {
-                //Label pro autíčko
-                Label carLabel = new Label();
-                carLabel.AutoSize = true;
-                carLabel.Click += SetCar;
+                //Otáčení směru pohybu autíček a přidávání kol
+                if (car.CarLabel.Left > panel1.Width - car.CarLabel.Width)
+                {
+                    car.CarDirection = Car.Direction.Left;
+                    car.CarLabel.Left = panel1.Width - car.CarLabel.Width;
+                    car.RoundsLabel.Text = (++car.RoundsPassed).ToString();
+                }
 
-                //Label pro kola
-                Label roundsLabel = new Label();
-                roundsLabel.AutoSize = true;
+                if (car.CarLabel.Left < 0)
+                {
+                    car.CarDirection = Car.Direction.Right;
+                    car.CarLabel.Left = 0;
+                    car.RoundsLabel.Text = (++car.RoundsPassed).ToString();
+                }
 
-                //Vytvoření autíčka s labely a přidání do listu
-                cars.Add(new Car(carLabel, roundsLabel));
+                //Ověření výherce
+                if (car.RoundsPassed == tbRounds.Value)
+                {
+                    timer.Stop();
+                    MessageBox.Show($"Vítězem je autíčko {car.CarLabel.Text} s barvou {car.CarLabel.BackColor}", $"Vítěz {car.CarLabel.Text}");
+                    Reset();
+                    break;
+                }
 
-                //Zobrazení prvnků v panelech
-                panel1.Controls.Add(carLabel);
-                panel2.Controls.Add(roundsLabel);
+                //Pohyb autíček
+                if (car.CarDirection == Car.Direction.Right) car.CarLabel.Left += rand.Next(1, tbSpeed.Value + 1);
+                else car.CarLabel.Left -= rand.Next(1, tbSpeed.Value + 1);
             }
+        }
+
+        private void numCarsNumber_ValueChanged(object sender, EventArgs e)
+        {
+            GenerateCars();
+            Reset();
+        }
+
+        private void btnStartAll_Click(object sender, EventArgs e)
+        {
+            var rand = new Random();
+
+            foreach (var car in cars)
+            {
+                Color c = Color.FromArgb(rand.Next(50, 256), rand.Next(50, 256), rand.Next(50, 256));
+                car.CarLabel.Text = RandomString(c.GetHashCode(), 4);
+                car.CarLabel.BackColor = c;
+                car.CarLabel.Left = 0;
+                car.IsReady = true;
+            }
+
+            Start();
         }
 
         //Změna velikostí panelů a okna, aby se do nich vešla všechna autíčka
@@ -176,13 +193,6 @@ namespace _181101_Černý1
             }
 
             return new String(stringChars);
-        }
-
-        //Enum na směr pohybu
-        public enum Direction
-        {
-            Right,
-            Left
         }
     }
 }

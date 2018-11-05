@@ -10,6 +10,12 @@ namespace _181101_Černý1
 {
     public class Car
     {
+        public Label CarLabel;
+        public Label RoundsLabel;
+        public bool IsReady;
+        public Direction CarDirection;
+        public int RoundsPassed;
+
         public Car(Label carLabel, Label roundsLabel)
         {
             CarLabel = carLabel;
@@ -28,15 +34,16 @@ namespace _181101_Černý1
             RoundsLabel.Top = 0;
 
             IsReady = false;
-            Direction = Form1.Direction.Right;
+            CarDirection = Direction.Right;
             RoundsPassed = 0;
             RoundsLabel.Text = RoundsPassed.ToString();
         }
 
-        public Label CarLabel;
-        public Label RoundsLabel;
-        public bool IsReady;
-        public Form1.Direction Direction;
-        public int RoundsPassed;
+        //Enum na směr pohybu
+        public enum Direction
+        {
+            Right,
+            Left
+        }
     }
 }
