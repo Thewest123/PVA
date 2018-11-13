@@ -1,0 +1,11 @@
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\bin\Debug\181108 Černý1.exe.config
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\bin\Debug\181108 Černý1.exe
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\bin\Debug\181108 Černý1.pdb
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\obj\Debug\181108 Černý1.csprojAssemblyReference.cache
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\obj\Debug\_181108_Černý1.Form1.resources
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\obj\Debug\_181108_Černý1.HighscoreTable.resources
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\obj\Debug\_181108_Černý1.Properties.Resources.resources
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\obj\Debug\181108 Černý1.csproj.GenerateResource.cache
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\obj\Debug\181108 Černý1.csproj.CoreCompileInputs.cache
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\obj\Debug\181108 Černý1.exe
+c:\users\honza\source\repos\181108 Černý1\181108 Černý1\obj\Debug\181108 Černý1.pdb
