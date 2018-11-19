@@ -1,0 +1,40 @@
+H:\sspš\2018 2019\2b čt 56\181115c\181115c\bin\Debug\181115c.exe.config
+H:\sspš\2018 2019\2b čt 56\181115c\181115c\bin\Debug\181115c.exe
+H:\sspš\2018 2019\2b čt 56\181115c\181115c\bin\Debug\181115c.pdb
+H:\sspš\2018 2019\2b čt 56\181115c\181115c\obj\Debug\181115c.csprojResolveAssemblyReference.cache
+H:\sspš\2018 2019\2b čt 56\181115c\181115c\obj\Debug\_181115c.Form1.resources
+H:\sspš\2018 2019\2b čt 56\181115c\181115c\obj\Debug\_181115c.Properties.Resources.resources
+H:\sspš\2018 2019\2b čt 56\181115c\181115c\obj\Debug\181115c.csproj.GenerateResource.Cache
+H:\sspš\2018 2019\2b čt 56\181115c\181115c\obj\Debug\181115c.exe
+H:\sspš\2018 2019\2b čt 56\181115c\181115c\obj\Debug\181115c.pdb
+H:\sspš\2018 2019\2c čt 34\181115c\181115c\bin\Debug\181115c.exe.config
+H:\sspš\2018 2019\2c čt 34\181115c\181115c\obj\Debug\181115c.exe
+H:\sspš\2018 2019\2c čt 34\181115c\181115c\obj\Debug\181115c.pdb
+H:\sspš\2018 2019\2c čt 34\181115c\181115c\bin\Debug\181115c.exe
+H:\sspš\2018 2019\2c čt 34\181115c\181115c\bin\Debug\181115c.pdb
+H:\sspš\2018 2019\2c čt 34\181115c\181115c\obj\Debug\181115c.csprojResolveAssemblyReference.cache
+H:\sspš\2018 2019\2c čt 34\181115c\181115c\obj\Debug\_181115c.Form1.resources
+H:\sspš\2018 2019\2c čt 34\181115c\181115c\obj\Debug\_181115c.Properties.Resources.resources
+H:\sspš\2018 2019\2c čt 34\181115c\181115c\obj\Debug\181115c.csproj.GenerateResource.Cache
+H:\sspš\2018 2019\2c čt 34\181115cs\181115c\bin\Debug\181115c.exe.config
+H:\sspš\2018 2019\2c čt 34\181115cs\181115c\obj\Debug\181115c.exe
+H:\sspš\2018 2019\2c čt 34\181115cs\181115c\obj\Debug\181115c.pdb
+Z:\PVA\Cvičení\181115 Černý1\181115c\bin\Debug\181115c.exe.config
+Z:\PVA\Cvičení\181115 Černý1\181115c\obj\Debug\181115c.exe
+Z:\PVA\Cvičení\181115 Černý1\181115c\obj\Debug\181115c.pdb
+Z:\PVA\Cvičení\181115 Černý1\181115c\bin\Debug\181115c.exe
+Z:\PVA\Cvičení\181115 Černý1\181115c\bin\Debug\181115c.pdb
+Z:\PVA\Cvičení\181115 Černý1\181115c\obj\Debug\181115c.csprojResolveAssemblyReference.cache
+Z:\PVA\Cvičení\181115 Černý1\181115c\obj\Debug\_181115c.Form1.resources
+Z:\PVA\Cvičení\181115 Černý1\181115c\obj\Debug\_181115c.Properties.Resources.resources
+Z:\PVA\Cvičení\181115 Černý1\181115c\obj\Debug\181115c.csproj.GenerateResource.Cache
+F:\PLOCHA\181115 Černý1\181115c\bin\Debug\181115c.exe.config
+F:\PLOCHA\181115 Černý1\181115c\bin\Debug\181115c.exe
+F:\PLOCHA\181115 Černý1\181115c\bin\Debug\181115c.pdb
+F:\PLOCHA\181115 Černý1\181115c\obj\Debug\181115c.csprojAssemblyReference.cache
+F:\PLOCHA\181115 Černý1\181115c\obj\Debug\_181115c.Form1.resources
+F:\PLOCHA\181115 Černý1\181115c\obj\Debug\_181115c.Properties.Resources.resources
+F:\PLOCHA\181115 Černý1\181115c\obj\Debug\181115c.csproj.GenerateResource.cache
+F:\PLOCHA\181115 Černý1\181115c\obj\Debug\181115c.csproj.CoreCompileInputs.cache
+F:\PLOCHA\181115 Černý1\181115c\obj\Debug\181115c.exe
+F:\PLOCHA\181115 Černý1\181115c\obj\Debug\181115c.pdb
