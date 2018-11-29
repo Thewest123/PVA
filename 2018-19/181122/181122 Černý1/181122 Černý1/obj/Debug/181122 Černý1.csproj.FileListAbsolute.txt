@@ -1,0 +1,22 @@
+Z:\PVA\Písemky\181122 Černý1\181122 Černý1\bin\Debug\181122 Černý1.exe.config
+Z:\PVA\Písemky\181122 Černý1\181122 Černý1\bin\Debug\181122 Černý1.exe
+Z:\PVA\Písemky\181122 Černý1\181122 Černý1\bin\Debug\181122 Černý1.pdb
+Z:\PVA\Písemky\181122 Černý1\181122 Černý1\obj\Debug\181122 Černý1.csprojResolveAssemblyReference.cache
+Z:\PVA\Písemky\181122 Černý1\181122 Černý1\obj\Debug\_181122_Černý1.Form1.resources
+Z:\PVA\Písemky\181122 Černý1\181122 Černý1\obj\Debug\_181122_Černý1.Properties.Resources.resources
+Z:\PVA\Písemky\181122 Černý1\181122 Černý1\obj\Debug\181122 Černý1.csproj.GenerateResource.Cache
+Z:\PVA\Písemky\181122 Černý1\181122 Černý1\obj\Debug\181122 Černý1.exe
+Z:\PVA\Písemky\181122 Černý1\181122 Černý1\obj\Debug\181122 Černý1.pdb
+Z:\PVA\Cvičení\181122 Černý1\181122 Černý1\bin\Debug\181122 Černý1.exe.config
+Z:\PVA\Cvičení\181122 Černý1\181122 Černý1\obj\Debug\181122 Černý1.exe
+Z:\PVA\Cvičení\181122 Černý1\181122 Černý1\obj\Debug\181122 Černý1.pdb
+F:\PLOCHA\181122 Černý1-CVICENI\181122 Černý1\bin\Debug\181122 Černý1.exe.config
+F:\PLOCHA\181122 Černý1-CVICENI\181122 Černý1\bin\Debug\181122 Černý1.exe
+F:\PLOCHA\181122 Černý1-CVICENI\181122 Černý1\bin\Debug\181122 Černý1.pdb
+F:\PLOCHA\181122 Černý1-CVICENI\181122 Černý1\obj\Debug\181122 Černý1.csprojAssemblyReference.cache
+F:\PLOCHA\181122 Černý1-CVICENI\181122 Černý1\obj\Debug\_181122_Černý1.Form1.resources
+F:\PLOCHA\181122 Černý1-CVICENI\181122 Černý1\obj\Debug\_181122_Černý1.Properties.Resources.resources
+F:\PLOCHA\181122 Černý1-CVICENI\181122 Černý1\obj\Debug\181122 Černý1.csproj.GenerateResource.cache
+F:\PLOCHA\181122 Černý1-CVICENI\181122 Černý1\obj\Debug\181122 Černý1.csproj.CoreCompileInputs.cache
+F:\PLOCHA\181122 Černý1-CVICENI\181122 Černý1\obj\Debug\181122 Černý1.exe
+F:\PLOCHA\181122 Černý1-CVICENI\181122 Černý1\obj\Debug\181122 Černý1.pdb
