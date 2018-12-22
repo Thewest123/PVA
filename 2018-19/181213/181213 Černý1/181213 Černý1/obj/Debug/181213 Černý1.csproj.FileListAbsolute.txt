@@ -1,0 +1,30 @@
+C:\Users\thewe\source\repos\181213 Černý1\181213 Černý1\bin\Debug\181213 Černý1.exe.config
+C:\Users\thewe\source\repos\181213 Černý1\181213 Černý1\bin\Debug\181213 Černý1.exe
+C:\Users\thewe\source\repos\181213 Černý1\181213 Černý1\bin\Debug\181213 Černý1.pdb
+C:\Users\thewe\source\repos\181213 Černý1\181213 Černý1\obj\Debug\181213 Černý1.csprojAssemblyReference.cache
+C:\Users\thewe\source\repos\181213 Černý1\181213 Černý1\obj\Debug\_181213_Černý1.Form1.resources
+C:\Users\thewe\source\repos\181213 Černý1\181213 Černý1\obj\Debug\_181213_Černý1.Properties.Resources.resources
+C:\Users\thewe\source\repos\181213 Černý1\181213 Černý1\obj\Debug\181213 Černý1.csproj.GenerateResource.cache
+C:\Users\thewe\source\repos\181213 Černý1\181213 Černý1\obj\Debug\181213 Černý1.csproj.CoreCompileInputs.cache
+C:\Users\thewe\source\repos\181213 Černý1\181213 Černý1\obj\Debug\181213 Černý1.exe
+C:\Users\thewe\source\repos\181213 Černý1\181213 Černý1\obj\Debug\181213 Černý1.pdb
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\bin\Debug\181213 Černý1.exe.config
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\bin\Debug\181213 Černý1.exe
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\bin\Debug\181213 Černý1.pdb
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\181213 Černý1.csprojAssemblyReference.cache
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\_181213_Černý1.Form1.resources
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\_181213_Černý1.Properties.Resources.resources
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\181213 Černý1.csproj.GenerateResource.cache
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\181213 Černý1.csproj.CoreCompileInputs.cache
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\181213 Černý1.exe
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\181213 Černý1.pdb
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\bin\Debug\181213 Černý1.exe.config
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\bin\Debug\181213 Černý1.exe
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\bin\Debug\181213 Černý1.pdb
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\181213 Černý1.csprojAssemblyReference.cache
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\_181213_Černý1.Form1.resources
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\_181213_Černý1.Properties.Resources.resources
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\181213 Černý1.csproj.GenerateResource.cache
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\181213 Černý1.csproj.CoreCompileInputs.cache
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\181213 Černý1.exe
+F:\OneDrive – Smíchovská střední průmyslová škola\PVA\181213 Černý1-ukol\181213 Černý1\obj\Debug\181213 Černý1.pdb
