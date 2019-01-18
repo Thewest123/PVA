@@ -1,0 +1,28 @@
+Z:\PVA\Písemky\190103 Černý\190103 Černý\bin\Debug\190103 Černý.exe.config
+Z:\PVA\Písemky\190103 Černý\190103 Černý\bin\Debug\190103 Černý.exe
+Z:\PVA\Písemky\190103 Černý\190103 Černý\bin\Debug\190103 Černý.pdb
+Z:\PVA\Písemky\190103 Černý\190103 Černý\obj\Debug\190103 Černý.csprojResolveAssemblyReference.cache
+Z:\PVA\Písemky\190103 Černý\190103 Černý\obj\Debug\_190103_Černý.Form1.resources
+Z:\PVA\Písemky\190103 Černý\190103 Černý\obj\Debug\_190103_Černý.Properties.Resources.resources
+Z:\PVA\Písemky\190103 Černý\190103 Černý\obj\Debug\190103 Černý.csproj.GenerateResource.Cache
+Z:\PVA\Písemky\190103 Černý\190103 Černý\obj\Debug\190103 Černý.exe
+Z:\PVA\Písemky\190103 Černý\190103 Černý\obj\Debug\190103 Černý.pdb
+Z:\PVA\Cvičení\190103 Černý1\190103 Černý\bin\Debug\190103 Černý.exe.config
+Z:\PVA\Cvičení\190103 Černý1\190103 Černý\obj\Debug\190103 Černý.exe
+Z:\PVA\Cvičení\190103 Černý1\190103 Černý\obj\Debug\190103 Černý.pdb
+Z:\PVA\Cvičení\190103 Černý1\190103 Černý\bin\Debug\190103 Černý.exe
+Z:\PVA\Cvičení\190103 Černý1\190103 Černý\bin\Debug\190103 Černý.pdb
+Z:\PVA\Cvičení\190103 Černý1\190103 Černý\obj\Debug\190103 Černý.csprojResolveAssemblyReference.cache
+Z:\PVA\Cvičení\190103 Černý1\190103 Černý\obj\Debug\_190103_Černý.Form1.resources
+Z:\PVA\Cvičení\190103 Černý1\190103 Černý\obj\Debug\_190103_Černý.Properties.Resources.resources
+Z:\PVA\Cvičení\190103 Černý1\190103 Černý\obj\Debug\190103 Černý.csproj.GenerateResource.Cache
+F:\PLOCHA\190103 Černý1\190103 Černý\bin\Debug\190103 Černý.exe.config
+F:\PLOCHA\190103 Černý1\190103 Černý\bin\Debug\190103 Černý.exe
+F:\PLOCHA\190103 Černý1\190103 Černý\bin\Debug\190103 Černý.pdb
+F:\PLOCHA\190103 Černý1\190103 Černý\obj\Debug\190103 Černý.csprojAssemblyReference.cache
+F:\PLOCHA\190103 Černý1\190103 Černý\obj\Debug\_190103_Černý.Form1.resources
+F:\PLOCHA\190103 Černý1\190103 Černý\obj\Debug\_190103_Černý.Properties.Resources.resources
+F:\PLOCHA\190103 Černý1\190103 Černý\obj\Debug\190103 Černý.csproj.GenerateResource.cache
+F:\PLOCHA\190103 Černý1\190103 Černý\obj\Debug\190103 Černý.csproj.CoreCompileInputs.cache
+F:\PLOCHA\190103 Černý1\190103 Černý\obj\Debug\190103 Černý.exe
+F:\PLOCHA\190103 Černý1\190103 Černý\obj\Debug\190103 Černý.pdb

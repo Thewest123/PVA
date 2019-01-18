@@ -1,0 +1,55 @@
+H:\sspš\2018 2019\2b po 910\190115p\190115p\bin\Debug\190115p.exe.config
+H:\sspš\2018 2019\2b po 910\190115p\190115p\obj\Debug\190115p.csprojResolveAssemblyReference.cache
+H:\sspš\2018 2019\2b po 910\190115p\190115p\obj\Debug\_190115p.Form1.resources
+H:\sspš\2018 2019\2b po 910\190115p\190115p\obj\Debug\_190115p.Properties.Resources.resources
+H:\sspš\2018 2019\2b po 910\190115p\190115p\obj\Debug\190115p.csproj.GenerateResource.Cache
+H:\sspš\2018 2019\2b po 910\190115p\190115p\bin\Debug\190115p.exe
+H:\sspš\2018 2019\2b po 910\190115p\190115p\bin\Debug\190115p.pdb
+H:\sspš\2018 2019\2b po 910\190115p\190115p\obj\Debug\190115p.exe
+H:\sspš\2018 2019\2b po 910\190115p\190115p\obj\Debug\190115p.pdb
+H:\sspš\2018 2019\2b po 910\190115c\190115p\bin\Debug\190115p.exe.config
+H:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\190115p.exe
+H:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\190115p.pdb
+H:\sspš\2018 2019\2b po 910\190115c\190115p\bin\Debug\190115p.exe
+H:\sspš\2018 2019\2b po 910\190115c\190115p\bin\Debug\190115p.pdb
+H:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\190115p.csprojResolveAssemblyReference.cache
+H:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\_190115p.Form1.resources
+H:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\_190115p.Properties.Resources.resources
+H:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\190115p.csproj.GenerateResource.Cache
+E:\sspš\2018 2019\2b po 910\190115c\190115p\bin\Debug\190115p.exe.config
+E:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\190115p.exe
+E:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\190115p.pdb
+E:\sspš\2018 2019\2b po 910\190115c\190115p\bin\Debug\190115p.exe
+E:\sspš\2018 2019\2b po 910\190115c\190115p\bin\Debug\190115p.pdb
+E:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\190115p.csprojResolveAssemblyReference.cache
+E:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\_190115p.Form1.resources
+E:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\_190115p.Properties.Resources.resources
+E:\sspš\2018 2019\2b po 910\190115c\190115p\obj\Debug\190115p.csproj.GenerateResource.Cache
+E:\sspš\2018 2019\2b čt 56\190117cs\190115p\bin\Debug\190115p.exe.config
+E:\sspš\2018 2019\2b čt 56\190117cs\190115p\obj\Debug\190115p.exe
+E:\sspš\2018 2019\2b čt 56\190117cs\190115p\obj\Debug\190115p.pdb
+E:\sspš\2018 2019\2b čt 56\190117cs\190115p\bin\Debug\190115p.exe
+E:\sspš\2018 2019\2b čt 56\190117cs\190115p\bin\Debug\190115p.pdb
+E:\sspš\2018 2019\2b čt 56\190117cs\190115p\obj\Debug\190115p.csprojResolveAssemblyReference.cache
+E:\sspš\2018 2019\2b čt 56\190117cs\190115p\obj\Debug\_190115p.Form1.resources
+E:\sspš\2018 2019\2b čt 56\190117cs\190115p\obj\Debug\_190115p.Properties.Resources.resources
+E:\sspš\2018 2019\2b čt 56\190117cs\190115p\obj\Debug\190115p.csproj.GenerateResource.Cache
+Z:\PVA\Cvičení\190117 Černý1\190115p\bin\Debug\190115p.exe.config
+Z:\PVA\Cvičení\190117 Černý1\190115p\obj\Debug\190115p.exe
+Z:\PVA\Cvičení\190117 Černý1\190115p\obj\Debug\190115p.pdb
+Z:\PVA\Cvičení\190117 Černý1\190115p\bin\Debug\190115p.exe
+Z:\PVA\Cvičení\190117 Černý1\190115p\bin\Debug\190115p.pdb
+Z:\PVA\Cvičení\190117 Černý1\190115p\obj\Debug\190115p.csprojResolveAssemblyReference.cache
+Z:\PVA\Cvičení\190117 Černý1\190115p\obj\Debug\_190115p.Form1.resources
+Z:\PVA\Cvičení\190117 Černý1\190115p\obj\Debug\_190115p.Properties.Resources.resources
+Z:\PVA\Cvičení\190117 Černý1\190115p\obj\Debug\190115p.csproj.GenerateResource.Cache
+F:\PLOCHA\190117 Černý1-DODELATDOMA\190115p\bin\Debug\190115p.exe.config
+F:\PLOCHA\190117 Černý1-DODELATDOMA\190115p\bin\Debug\190115p.exe
+F:\PLOCHA\190117 Černý1-DODELATDOMA\190115p\bin\Debug\190115p.pdb
+F:\PLOCHA\190117 Černý1-DODELATDOMA\190115p\obj\Debug\190115p.csprojAssemblyReference.cache
+F:\PLOCHA\190117 Černý1-DODELATDOMA\190115p\obj\Debug\_190115p.Form1.resources
+F:\PLOCHA\190117 Černý1-DODELATDOMA\190115p\obj\Debug\_190115p.Properties.Resources.resources
+F:\PLOCHA\190117 Černý1-DODELATDOMA\190115p\obj\Debug\190115p.csproj.GenerateResource.cache
+F:\PLOCHA\190117 Černý1-DODELATDOMA\190115p\obj\Debug\190115p.csproj.CoreCompileInputs.cache
+F:\PLOCHA\190117 Černý1-DODELATDOMA\190115p\obj\Debug\190115p.exe
+F:\PLOCHA\190117 Černý1-DODELATDOMA\190115p\obj\Debug\190115p.pdb
