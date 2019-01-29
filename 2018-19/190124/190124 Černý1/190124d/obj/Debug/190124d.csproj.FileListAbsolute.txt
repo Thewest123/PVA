@@ -1,0 +1,22 @@
+H:\sspš\2018 2019\2c čt 34\190124d\190124d\bin\Debug\190124d.exe.config
+H:\sspš\2018 2019\2c čt 34\190124d\190124d\bin\Debug\190124d.exe
+H:\sspš\2018 2019\2c čt 34\190124d\190124d\bin\Debug\190124d.pdb
+H:\sspš\2018 2019\2c čt 34\190124d\190124d\obj\Debug\190124d.csprojResolveAssemblyReference.cache
+H:\sspš\2018 2019\2c čt 34\190124d\190124d\obj\Debug\_190124d.Form1.resources
+H:\sspš\2018 2019\2c čt 34\190124d\190124d\obj\Debug\_190124d.Properties.Resources.resources
+H:\sspš\2018 2019\2c čt 34\190124d\190124d\obj\Debug\190124d.csproj.GenerateResource.Cache
+H:\sspš\2018 2019\2c čt 34\190124d\190124d\obj\Debug\190124d.exe
+H:\sspš\2018 2019\2c čt 34\190124d\190124d\obj\Debug\190124d.pdb
+H:\sspš\2018 2019\2b čt 56\190124ds\190124d\bin\Debug\190124d.exe.config
+H:\sspš\2018 2019\2b čt 56\190124ds\190124d\obj\Debug\190124d.exe
+H:\sspš\2018 2019\2b čt 56\190124ds\190124d\obj\Debug\190124d.pdb
+F:\PLOCHA\190124ds\190124d\bin\Debug\190124d.exe.config
+F:\PLOCHA\190124ds\190124d\bin\Debug\190124d.exe
+F:\PLOCHA\190124ds\190124d\bin\Debug\190124d.pdb
+F:\PLOCHA\190124ds\190124d\obj\Debug\190124d.csprojAssemblyReference.cache
+F:\PLOCHA\190124ds\190124d\obj\Debug\_190124d.Form1.resources
+F:\PLOCHA\190124ds\190124d\obj\Debug\_190124d.Properties.Resources.resources
+F:\PLOCHA\190124ds\190124d\obj\Debug\190124d.csproj.GenerateResource.cache
+F:\PLOCHA\190124ds\190124d\obj\Debug\190124d.csproj.CoreCompileInputs.cache
+F:\PLOCHA\190124ds\190124d\obj\Debug\190124d.exe
+F:\PLOCHA\190124ds\190124d\obj\Debug\190124d.pdb
